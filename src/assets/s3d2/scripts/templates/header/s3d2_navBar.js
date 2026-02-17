@@ -217,11 +217,10 @@ export default function s3d2_navBar(i18n, { logo }) {
 
       <div class="nav-container">
         ${
-          config.genplan
-            ? `<button class="s3d2-header__nav-button js-s3d-nav__btn" data-type="flyby" data-flyby="1" data-side="outside">
+           `<button class="s3d2-header__nav-button js-s3d-nav__btn" data-type="flyby" data-flyby="1" data-side="outside">
           ${i18n.t('ctr.nav.fisher_island')}
           </button>`
-            : ``
+           
         }
         ${s3d2_Dropdown(
           dataForFlybyDropdown,

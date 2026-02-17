@@ -153,12 +153,22 @@ function updateSwiperUI(swiperInstance) {
   line.style.width = `${lineEnd - lineStart}px`;
 }
 
+ 
 function getPaymentCardFromDevBase(flat) {
-  const paymentIndexes = [11, 12, 13, 14, 15];
+  const PAYMENT_FIELD_IDS = {
+    DOWN_PAYMENT: '53', // Down Payment (%35)
+    INTERIM_6M: '54', // Interim Payment (6th month-%10)
+    INTERIM_12M: '55', // Interim Payment (12th month-%15)
+    INTERIM_18M: '56', // Interim Payment (18th month-%10)
+    INSTALLMENT: '57', // Installment Amount (36 month)
+  };
 
-  const paymentItemsHtml = paymentIndexes
-    .map(index => {
-      const property = flat.customProperties[index];
+  const paymentIds = Object.values(PAYMENT_FIELD_IDS);
+  const propertiesMap = new Map(flat.customProperties.map(prop => [prop.properties?.id, prop]));
+
+  const paymentItemsHtml = paymentIds
+    .map(id => {
+      const property = propertiesMap.get(id);
       const rawLabel = property?.properties?.label ?? '';
       const priceValue = property?.value?.value ?? '';
 
@@ -186,6 +196,7 @@ function getPaymentCardFromDevBase(flat) {
 
   return paymentItemsHtml;
 }
+
 
 function parsePaymentTitle(input) {
   // Регулярний вираз витягує:

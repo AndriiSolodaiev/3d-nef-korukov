@@ -52,7 +52,7 @@
     "general": {
       "button_titles": {
         "queue": "Sırayı keşfet",
-        "villa": "Villayı keşfet",
+        "villa": "Rezidansı keşfet",
         "house": "Evi keşfet"
       }
     }
@@ -108,7 +108,7 @@
       "level": "Kat",
       "floor": "Kat planı",
       "floor_plans": "Kat planları",
-      "flat": "Villa",
+      "flat": "Rezidans",
       "functions": "Fonksiyonlar",
       "property": "Mülk",
       "flat_shot": "Daireler",
@@ -120,9 +120,9 @@
       "home": "Ana Sayfa",
       "masterplan": "Bina Genel Bakışı",
       "360_orbit": "360 Yörünge",
-      "availability": "Satışa açık Villalar",
+      "availability": "Satışa açık Rezidanslar",
       "fisher_island": "Vaziyet Planı",
-      "mansion": "Villa"
+      "mansion": "Rezidans"
     },
     "share": {
       "link-copied": "Bağlantı kopyalandı"
@@ -207,7 +207,7 @@
       "bathrooms": "Banyolar",
       "build": "Blok",
       "type": "Tür",
-      "villa_type": "Villa tipi",
+      "villa_type": "Rezidans tipi",
       "parking_type": "Otopark tipi"
     },
     "reset": "Temizle",
@@ -252,7 +252,7 @@
     },
     "floor_planning": "Kat planı ve özellikler",
     "change_floor": "Katı değiştir:",
-    "same_apartment_type": "Alternatif Villalar",
+    "same_apartment_type": "Alternatif Rezidanslar",
     "buttons": {
       "with": "3D",
       "without": "2D",
@@ -281,12 +281,12 @@
       "build": "Salon",
       "number": "Numara",
       "area": "Alan",
-      "allArea": "Toplam alan",
-      "life_area": "Yaşam alanı",
+      "allArea": "Toplam Alan",
+      "life_area": "Brüt Alan",
       "area_unit": "$t(area_unit)",
       "rooms": "Odalar",
       "rooms_R": "YO",
-      "villa_type": "Villa Tipi",
+      "villa_type": "Rezidans Tipi",
       "floor": "Kat",
       "price": "Fiyat",
       "priceText": " $t(currency_label)",
@@ -301,14 +301,14 @@
       "exterior_area": "Dış alan",
       "baths": "Banyo",
       "beds": "Oda",
-      "villa": "Villa",
+      "villa": "Rezidans",
       "garden": "Bahçe"
     },
     "goToFloor": "Kat planı",
     "goToFlat": "Mülkü keşfet",
     "hero": {
       "title": "ATHOS",
-      "subtitle": "Villa",
+      "subtitle": "Rezidans",
       "description": "YENİ PROJEMİZ, CORAL GABLES'IN KALBİNDEKİ MANZARALI HIGH PINES BÖLGESİNDE, GÜNEY MIAMI'NİN EN SEÇKİN NOKTASINDADIR. BU BÖLGE, ÜST DÜZEY OKULLARI VE OLAĞANÜSTÜ YAŞAM KALİTESİYLE TANINIR."
     },
     "faq": {
@@ -421,7 +421,7 @@
     "found--with": "ile",
     "found-flats": "daireler",
     "notFound": "Ancak bu konutlara da göz atabilirsiniz",
-    "toggle-title": "Villa Planları",
+    "toggle-title": "Rezidans Planları",
     "toggle-title-btn-cards": "Şema",
     "toggle-title-btn-list": "Liste",
     "toggle-title222": "başlık"
@@ -438,7 +438,7 @@
   "card--link": "Daha fazla oku",
   "card--add_to_compare": "Karşılaştırmaya ekle",
   "PopupFlyby": {
-    "title": "Villa",
+    "title": "Rezidans",
     "description": "Plan başka bir binada bulunuyor. 3D modelde görüntülemek için diğer bloğa geçmeniz gerekiyor.",
     "btn": "Açıyı değiştir"
   },
@@ -475,7 +475,7 @@
     "240": "Tip 5BR KS",
     "241": "Tip 5BR SJ",
     "242": "Tip 5BR SJ",
-    "default": "Villa"
+    "default": "Rezidans"
   },
   "builds": {
     "1": "A",

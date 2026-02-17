@@ -61,7 +61,7 @@ function Filter(i18n, filterData = []) {
       }
 
       containerForThisFilter.innerHTML = valuesForThisFitler
-        .sort()
+        .sort((a, b) => a - b)
         .map(singleVlaue => {
           const isInitialyChecked =
             searchParams[

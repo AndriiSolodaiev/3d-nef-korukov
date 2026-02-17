@@ -25,7 +25,7 @@ export default function s3dApartmentsList(i18n, flat, favouritesIds$, showPrices
   const otherTypesNearest = otherTypeFlats
     .filter(item => item.type !== currentType)
     .sort((a, b) => parseFloat(a.price) - parseFloat(b.price))
-    .slice(0, 4); // беремо 4 найдешевші за ціною
+    .slice(0, 9); // беремо 4 найдешевші за ціною
 
   // 3. Склеюємо результат
   const flatsToShow = [...sameTypeNearest, ...otherTypesNearest];

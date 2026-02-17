@@ -16,7 +16,7 @@
     "open_pdf": "Open PDF"
   },
   "floor_list": {
-    "build": "Build {{build}}",
+    "build": "Block {{build}}",
     "section": "Section {{section}}"
   },
   "asideMenu": {
@@ -52,7 +52,7 @@
     "general": {
       "button_titles": {
         "queue": "Explore the Queue",
-        "villa": "Explore villa",
+        "villa": "Explore Residence",
         "house": "Explore house"
       }
     }
@@ -108,7 +108,7 @@
       "level": "Level",
       "floor": "Floor plan",
       "floor_plans": "Floor plans",
-      "flat": "Villa",
+      "flat": "Residence",
       "functions": "Functions",
       "property": "Property",
       "flat_shot": "Apartments",
@@ -122,7 +122,7 @@
       "360_orbit": "360 Orbit",
       "availability": "Availability",
       "fisher_island": "General plan",
-      "mansion": "Villa"
+      "mansion": "Residence"
     },
     "share": {
       "link-copied": "Link copied"
@@ -205,9 +205,9 @@
     "checkboxes": {
       "rooms": "Rooms",
       "bathrooms": "Bathrooms",
-      "build": "Build",
+      "build": "Block",
       "type": "Type",
-      "villa_type": "Villa type",
+      "villa_type": "Residence type",
       "parking_type": "Parking type"
     },
     "reset": "Clean up",
@@ -252,7 +252,7 @@
     },
     "floor_planning": "Floorplan & specs",
     "change_floor": "Change floor:",
-    "same_apartment_type": "Available villas",
+    "same_apartment_type": "Available Residences",
     "buttons": {
       "with": "3D",
       "without": "2D",
@@ -278,15 +278,15 @@
     "information": {
       "title": "Information",
       "sale": "Status",
-      "build": "Build",
+      "build": "Block",
       "number": "Number",
       "area": "Area",
       "allArea": "Total area",
-      "life_area": "Living area",
+      "life_area": "Gross Area",
       "area_unit": "$t(area_unit)",
       "rooms": "Rooms",
       "rooms_R": "B",
-      "villa_type": "Villa Type",
+      "villa_type": "Residence Type",
       "floor": "Floor",
       "price": "Price",
       "priceText": " $t(currency_label)",
@@ -301,14 +301,14 @@
       "exterior_area": "Exterior area",
       "baths": "Baths",
       "beds": "Beds",
-      "villa": "Villa",
+      "villa": "Residence",
       "garden": "Garden"
     },
     "goToFloor": "Floor plan",
     "goToFlat": "Explore property",
     "hero": {
       "title": "ATHOS",
-      "subtitle": "Villa",
+      "subtitle": "Residence",
       "description": "OUR NEW PROJECT IS IN THE UPSCALE SOUTH MIAMI AREA, IN THE SCENIC HIGH PINES NEIGHBORHOOD, RIGHT IN THE HEART OF CORAL GABLES. THIS AREA IS KNOWN FOR ITS TOP-RATED SCHOOLS AND EXCEPTIONAL QUALITY OF LIFE. "
     },
     "faq": {
@@ -322,7 +322,7 @@
     },
 
     "exterior": {
-      "exteriorTitle": "EXTERIOR OF THE VILLA",
+      "exteriorTitle": "EXTERIOR OF THE Residence",
       "exteriorItemTitle": {
         "1": "SUNRISE VIEWS: COASTAL LIVING REDEFINED:",
         "2": "EXCLUSIVE COASTAL RETREATS: YOUR SANCTUARY AWAITS",
@@ -393,7 +393,7 @@
     "apps_from": "Residences from",
     "information": {
       "title": "Information",
-      "build": "Build",
+      "build": "Block",
       "floor": "Floor",
       "section": "Section",
       "price_m2_from": "From $t(currency_label) per $t(area_unit)",
@@ -439,7 +439,7 @@
   "card--link": "Read more",
   "card--add_to_compare": "Add to compare",
   "PopupFlyby": {
-    "title": "Villa",
+    "title": "Residence",
     "description": "Planning is in another building. To view it on a 3D model, you need to switch to another block.",
     "btn": "Change the angle"
   },

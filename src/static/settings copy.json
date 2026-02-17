@@ -1,0 +1,516 @@
+{
+  "intro": {
+    "id": "intro",
+    "generalWrapId": ".js-s3d__slideModule",
+    "title_img": "/wp-content/themes/3d/assets/s3d/images/logo.svg",
+    "bg_url": "https://3d-mension-on-fisher.smartorange.site/wp-content/themes/3d/assets/images-wp/poster.jpg",
+    "video_url": "https://3d-mension-on-fisher.smartorange.site/wp-content/themes/3d/assets/images-wp/real-estate-v5-v2.mp4",
+    "faq": "Видалити цей об'єкт, якщо не потрібен інтро екран перед обльотом"
+  },
+  "genplan": {
+    "id": "genplan",
+    "generalWrapId": "#js-s3d__wrapper",
+    "imageUrl": "images/flyby/masterplan/",
+    "sd_imageUrl": "images/flyby/masterplan/",
+    "enableParalax": false,
+    "enableClouds": false,
+    "image_format": "jpg",
+    "show_flat_polygons_tooltip": true,
+    "show_flat_polygons_tooltip_key": "area",
+    "defaultTheme": "light",
+    "class": "js-s3d__wrapper",
+    "SLIDER_MOBILE_FINGER_SWIPE": false,
+    "DISABLE_MOBILE_ZOOM": false,
+    "numberSlide": {
+      "min": 0,
+      "max": 119
+    },
+    "verticalAlig_faq": "top || center || bottom",
+    "verticalAlign": "center",
+    "horizontalAlign_faq": "left || center || right",
+    "horizontalAlign": "center",
+    "video_keyframes": {},
+    "controlPoint": [
+      1,
+      30,
+      60,
+      90
+    ],
+    "activeSlide": 1,
+    "rotateSpeedDefault": 24,
+    "rotateSpeed": [],
+    "frameWithNorthDirection": 100,
+    "mouseSpeed": 0.5,
+    "startDegCompass": 60
+  },
+  "flyby": {
+    "1": {
+      "outside": {
+        "id": "flyby_1_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/masterplan/",
+        "sd_imageUrl": "images/flyby/masterplan/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 119
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "center",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "video_keyframes": {},
+        "controlPoint": [
+          1,
+          30,
+          60,
+          90
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 24,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 40
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    }
+  },
+  "favourites": {
+    "id": "favourites",
+    "generalWrapId": ".js-s3d__slideModule"
+  },
+  "floor": {
+    "id": "floor",
+    "generalWrapId": ".js-s3d__slideModule",
+    "polygonValueToRender1": "type",
+    "polygonValueToRender2": "area",
+    "flatPropertiesToShowInFloor": [
+      {
+        "prefix": "currency_label",
+        "key": "_price",
+        "postfix": "",
+        "type": "number",
+        "size": "large"
+      },
+      {
+        "prefix": "currency_label_m2",
+        "key": "price_m2",
+        "type": "number",
+        "postfix": ""
+      }
+    ]
+  },
+  "flat": {
+    "id": "flat",
+    "viewType_faq": "viewType може бути двох видів: flat або villa",
+    "viewType": "flat",
+    "generalWrapId": ".js-s3d__slideModule",
+    "labelsToShowInInfoBlock": [
+      {
+        "key": "area",
+        "postfix_key": "area_unit",
+        "label": "Flat.information.area"
+      },
+      {
+        "key": "build",
+        "postfix_key": "",
+        "label": "Flat.information.build"
+      },
+      {
+        "key": "floor",
+        "postfix_key": "",
+        "label": "Flat.information.floor"
+      },
+      {
+        "key": "rooms",
+        "postfix_key": "",
+        "label": "Flat.information.rooms"
+      },
+      {
+        "key": "number",
+        "postfix_key": "",
+        "label": "Flat.information.number"
+      }
+    ],
+    "faq_questions": [
+      {
+        "question": {
+          "en": "Architecture & Space"
+        },
+        "answer": {
+          "en": "<ul><li>Expansive private terraces designed for al fresco living</li><li>Private elevator arrival to every residence</li><li>Floor-to-ceiling impact-rated windows framing natural light and views</li><li>Open-concept layouts emphasizing light, harmony, and European elegance</li><li>“Amp” Machine in each unit</li></ul>"
+        }
+      },
+      {
+        "question": {
+          "en": "Kitchens"
+        },
+        "answer": {
+          "en": "<ul><li>Italian-style kitchens with premium European cabinetry</li><li>Custom Italkraft kitchens and vanities</li><li>Integrated Miele appliance package</li><li>Natural stone countertops and backsplash</li><li>Imported Italian tile and natural wood finishes</li></ul>"
+        }
+      },
+      {
+        "question": {
+          "en": "Appliances (Miele)"
+        },
+        "answer": {
+          "en": "<ul><li>Miele wall oven</li><li>Miele Speedoven</li><li>Miele coffee system</li><li>Miele cooktop & ventilation</li><li>Miele refrigerator & freezer</li></ul>"
+        }
+      },
+      {
+        "question": {
+          "en": "Bathrooms"
+        },
+        "answer": {
+          "en": "<ul><li>Spa-inspired bathroom design with timeless elegance</li><li>Imported Italian tilework</li><li>Natural stone vanities and finishes</li><li>Graff luxury plumbing fixtures</li><li>Toto toilets throughout</li><li>Electric bidet toilets in all master baths</li><li>Standard Toto toilets in secondary bathrooms</li></ul>"
+        }
+      },
+      {
+        "question": {
+          "en": "Interior finishes & Craftsmanship"
+        },
+        "answer": {
+          "en": "<ul><li>European cabinetry and millwork</li><li>Natural stone and Italian tile flooring options</li><li>Warm, refined, contemporary material palette</li><li>High-quality finishes emphasizing craftsmanship and durability</li></ul>"
+        }
+      },
+      {
+        "question": {
+          "en": "Building quality & Convenience"
+        },
+        "answer": {
+          "en": "<ul><li>Impact-resistant floor-to-ceiling glazing</li><li>Private, secure elevator access</li><li>Integrated premium appliance technology</li></ul>"
+        }
+      }
+    ],
+    "brands_list": [
+      {
+        "brand": "Appliances",
+        "category": "Appliances",
+        "description": "Your kitchen comes equipped with stainless steel GE® appliances. The Katona model features a 36\" counter depth french door refrigerator with lower freezer, 36\" 4 burner gas cooktop, 30\" speed oven/convection oven combo, and 24\" dishwasher.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/appliances.png",
+        "logoAlt": "Appliances logo"
+      },
+      {
+        "brand": "Kohler",
+        "category": "Plumbing fixtures",
+        "description": "All fixtures and finishes are made of high-end, durable metal from Kohler®. From your kitchen to all of your bathrooms. You can expect high quality at a minimum.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/kohler.png",
+        "logoAlt": "Kohler logo"
+      },
+      {
+        "brand": "Samsung",
+        "category": "Laundry",
+        "description": "Your Katona home comes equipped with a laundry room complete with full-size front-loading Samsung® washer and dryer.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/samsung.png",
+        "logoAlt": "Samsung logo"
+      },
+      {
+        "brand": "TOTO",
+        "category": "Plumbing (Smart)",
+        "description": "Renowned for precision engineering and refined Japanese design, TOTO sets the global standard in luxury bathroom experiences, blending innovation, comfort, and timeless elegance.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/toto.png",
+        "logoAlt": "TOTO logo"
+      },
+      {
+        "brand": "Graff",
+        "category": "Plumbing fixtures",
+        "description": "Graff plumbing fixtures combine architectural form with meticulous craftsmanship, delivering sculptural design, superior performance, and enduring material quality throughout kitchens and baths.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/graff.png",
+        "logoAlt": "Graff logo"
+      },
+      {
+        "brand": "Miele",
+        "category": "Household appliances",
+        "description": "Synonymous with performance and longevity, Miele appliances are engineered to the highest European standards, offering intuitive technology, exceptional reliability, and understated sophistication.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/miele.png",
+        "logoAlt": "Miele logo"
+      },
+      {
+        "brand": "Italkraft",
+        "category": "Designer kitchens and furniture",
+        "description": "Custom-designed Italkraft kitchens embody Italian craftsmanship and modern design excellence, featuring refined materials, seamless functionality, and tailored elegance at the heart of the home.",
+        "logoUrl": "/wp-content/themes/3d/assets/s3d/images/brands_logo/italkraft.png",
+        "logoAlt": "Italkraft logo"
+      }
+    ],
+    "payment_list": [
+      {
+        "title": "Reservation",
+        "description": "Hold 72h, sign reservation",
+        "percent": "10%",
+        "payment": "Payment",
+        "period": "Week 1"
+      },
+      {
+        "title": "Agreement",
+        "description": "Sign SPA, confirm purchase terms",
+        "percent": "20%",
+        "payment": "Payment",
+        "period": "Week 2-4"
+      },
+      {
+        "title": "Foundation",
+        "description": "Groundworks & base structure",
+        "percent": "10%",
+        "payment": "Payment",
+        "period": "Q1 202"
+      },
+      {
+        "title": "Structure",
+        "description": "Main frame & load-bearing systems",
+        "percent": "20%",
+        "payment": "Payment",
+        "period": "Q3 2026"
+      },
+      {
+        "title": "Facade",
+        "description": "Exterior walls, cladding & glazing",
+        "percent": "20%",
+        "payment": "Payment",
+        "period": "Q1 2027"
+      },
+      {
+        "title": "Facade",
+        "description": "Exterior walls, cladding & glazing",
+        "percent": "20%",
+        "payment": "Payment",
+        "period": "Q1 2027"
+      }
+    ],
+    "contact_block_variant": "2"
+  },
+  "plannings": {
+    "id": "plannings",
+    "generalWrapId": ".js-s3d__slideModule"
+  },
+  "filter": {
+    "viewType": "card",
+    "ranges": [{
+        "title_i18n": "Filter.range.area",
+        "title_postfix_i18n": "Filter.range.area_unit",
+        "title_prefix_i18n": false,
+        "delimit_thousands": true,
+        "name": "area",
+        "type": "range"
+      },
+      {
+        "title_i18n": "Filter.range.price",
+        "title_postfix_i18n": false,
+        "title_prefix_i18n": false,
+        "name": "price",
+        "type": "range"
+      }
+    ],
+    "checkboxes": [
+      
+      {
+        "title": "Filter.checkboxes.rooms",
+        "type": "checkbox",
+        "needTranslation": false,
+        "translationNS": "Filter.rooms.",
+        "paramaterByWhatWillBeFilter": "rooms"
+      },
+      {
+        "title": "Filter.checkboxes.build",
+        "type": "checkbox",
+        "needTranslation": false,
+        "translationNS": "Filter.rooms.",
+        "paramaterByWhatWillBeFilter": "build"
+      }
+    ]
+  },
+  "pinsInfo": {
+    "video": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "zone",
+      "position": "center",
+      "title": {
+        "en": "Tennis court",
+        "uk": "Тенісний корт"
+      },
+      "description": {
+        "en": "Parking description",
+        "uk": "Опис паркінгу"
+      },
+      "img": "/wp-content/themes/3d/assets/s3d/images/flyby/masterplan/113.jpg",
+      "filter_type": "arrow"
+    }
+  },
+  "hide_s3dFlybySideChooser": true,
+  "markers": [
+    "commercial.svg",
+    "marker.svg",
+    "marker2.svg",
+    "parking.svg",
+    "playground.svg",
+    "shop.svg",
+    "street.svg",
+    "underground.svg",
+    "walking.svg"
+  ],
+  "unit_statuses": {
+    "0": {
+      "label": "Продано",
+      "color": "var(--s3d2-color-text-gray-200)",
+      "background": "var(--color-semantic-warning)"
+    },
+    "1": {
+      "label": "Свободно",
+      "color": "var(--s3d2-color-text-gray-200)",
+      "background": "var(--color-semantic-success)"
+    },
+    "2": {
+      "label": "Резерв",
+      "color": "var(--s3d2-color-text-gray-200)",
+      "background": "var(--color-semantic-warning)"
+    },
+    "3": {
+      "label": "Бронь",
+      "color": "var(--s3d2-color-text-gray-200)",
+      "background": "var(--color-semantic-warning)"
+    },
+    "4": {
+      "label": "Недоступно",
+      "color": "var(--s3d2-color-text-gray-200)",
+      "background": "var(--color-semantic-danger)"
+    },
+    "6": {
+      "label": "Заблокировано",
+      "color": "var(--s3d2-color-text-gray-200)",
+      "background": "var(--color-semantic-danger)"
+    }
+  },
+  "form": {
+    "prefered_countries": [
+      "us"
+    ]
+  },
+  "flyby_finish_dates": {},
+  "assotiated_flat_builds_with_flybys": {},
+  "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28558.07815630491!2d29.259024!3d41.0380904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad37091fd3659%3A0x4a399c6fc00aead4!2zTmVmIMOHZWttZWvDtnkgU2F0xLHFnyBPZmlzaQ!5e1!3m2!1suk!2sua!4v1768484433154!5m2!1suk!2sua" ,
+  "infoBoxes": {
+    "general_flyby_button_titles": {
+      "faq": "Можливі підписи для кнопок у інфобоксі обльоту : queue ,villa, house",
+      "1_outside": "queue",
+      "3_outside": "villa",
+      "1_inside": "house"
+    }
+  },
+  "header": {
+    "logo": "/wp-content/themes/3d/assets/s3d/images/logo.svg",
+    "menu_selector_default_FAQ": "data-open-menu // виставити це для дефолтного меню модуля, видалити",
+    "menu_selector": "data-open-menu"
+  },
+  "menu_top_img": "/wp-content/themes/3d/assets/s3d/images/logo-nef.svg",
+  "currency_label": "₺",
+  "currency_value": "USD",
+  "currency_list": [],
+  "show_prices": true,
+  "languages": "en/tr",
+  "show_phoneNumber": false,
+  "hideDocumentation": true,
+  "hideExterior": true,
+  "hideFinancialTerms": true,
+  "hideConstructionProgress": true,
+  "social_media_links_faq": "Якщо строчка пуста, то кнопка не буде відображатися",
+  "social_media_links": {
+    "telegram": "#",
+    "viber": "#",
+    "whatsapp": "#",
+    "youtube": "https://www.youtube.com/user/DoraPuig?app=desktop",
+    "twitter": "https://twitter.com/DoraPuig",
+    "tiktok": "#",
+    "facebook": "https://www.facebook.com/dora.puig",
+    "instagram": "https://www.instagram.com/dorapuig/"
+  },
+  "manager_info": {
+    "tel": "+1 473 416 6121",
+    "email": "welcome@goldblat.com",
+    "name": {
+      "en": "Janet Meier",
+      "uk": "Janet Meier"
+    },
+    "img": "/wp-content/themes/3d/assets/s3d/images/manager-img.png",
+    "img_2": "/wp-content/themes/3d/assets/s3d/images/image-portrait.png",
+    "position": {
+      "en": "Sales agent",
+      "uk": "Sales agent"
+    },
+    "socials": {
+      "telegram": "#",
+      "viber": "#",
+      "whatsapp": "#",
+      "youtube": "https://www.youtube.com/user/DoraPuig?app=desktop",
+      "twitter": "https://twitter.com/DoraPuig",
+      "tiktok": "#",
+      "facebook": "https://www.facebook.com/dora.puig",
+      "instagram": "https://www.instagram.com/dorapuig/"
+    }
+  },
+  "g_contacts": {
+    "global_number": "+1 473 416 6121",
+    "email": "welcome@goldblat.com",
+    "construction_department": {
+      "google_maps_link": "https://maps.app.goo.gl/VgB1BeVS5vQUZjMh9",
+      "text": {
+        "en": "Nef Çekmeköy Sales Office, Nişantepe, 34794 Çekmeköy/İstanbul, Turkey",
+        "tr":"Nef Çekmeköy Satış Ofisi, Nişantepe Mah., 34794 Çekmeköy/İstanbul, Türkiye"
+      }
+    },
+    "sales_department": {
+      "google_maps_link": "https://maps.app.goo.gl/VgB1BeVS5vQUZjMh9",
+      "text": {
+        "en": "Nef Çekmeköy Sales Office, Nişantepe, 34794 Çekmeköy/İstanbul, Turkey",
+        "tr":"Nef Çekmeköy Satış Ofisi, Nişantepe Mah., 34794 Çekmeköy/İstanbul, Türkiye"
+      }
+    },
+    "working_hours": {
+      "weekdays": {
+        "en": "Monday - Friday: 09:00 - 20:00"
+      },
+      "weekends": {
+        "en": "Saturday - Sunday: Flexible schedule"
+      }
+    }
+  },
+  "g_contact_advantaged_list": [
+    {
+      "en": "Personalized Consultation",
+      "uk": "Персональна консультація"
+    }
+  ],
+  "SLIDER_MOBILE_FINGER_SWIPE": false,
+  "audioAssistant": {
+    "needToInitialize": false,
+    "files": {
+      "flyby_1_outside_1": "/wp-content/themes/3d/static/ElevenLabs_Text_to_Speech_audio.mp3",
+      "plannings": "/wp-content/themes/3d/static/plannings.mp3"
+    }
+  },
+  "menu_tour_link": "https://apartment-tours.smartorange.com.ua/en/english-mension-fisher-island-lot7/?scene=0",
+  "menu_video_link": "https://3d-mension-on-fisher.smartorange.site/wp-content/themes/3d/assets/images-wp/real-estate-v5-v2.mp4",
+  "menu_brochure_link": "/wp-content/themes/3d/assets/images-wp/The Mansions on Fisher Island - brochure (4).pdf",
+  "flat_description_2": {
+    "title": "Share Property",
+    "items": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https://dorapuig.com/properties/1007-fisher-island-drive-miami-beach-fl-us-33109-f9207bf6dee8f35b6704cc25236b5af5",
+      "twitter": "https://twitter.com/share?url=https://www.dorapuig.com/properties/1007-fisher-island-drive-miami-beach-fl-us-33109-f9207bf6dee8f35b6704cc25236b5af5",
+      "mail": "mailto:?subject=Read More About Fisher Island Mansion No. 7&body=https://www.dorapuig.com/properties/1007-fisher-island-drive-miami-beach-fl-us-33109-f9207bf6dee8f35b6704cc25236b5af5"
+    }
+  }
+}

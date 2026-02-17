@@ -1,47 +1,4 @@
 {
-  "intro": {
-    "id": "intro",
-    "generalWrapId": ".js-s3d__slideModule",
-    "title_img": "/wp-content/themes/3d/assets/s3d/images/mansion-big-logo.png",
-    "bg_url": "https://3d-mension-on-fisher.smartorange.site/wp-content/themes/3d/assets/images-wp/poster.jpg",
-    "video_url": "https://3d-mension-on-fisher.smartorange.site/wp-content/themes/3dshow_num/assets/images-wp/real-estate-v5-v2.mp4",
-    "faq": "Видалити цей об'єкт, якщо не потрібен інтро екран перед обльотом"
-  },
-  "genplan": {
-    "id": "genplan",
-    "generalWrapId": "#js-s3d__wrapper",
-    "imageUrl": "images/flyby/masterplan/",
-    "sd_imageUrl": "images/flyby/masterplan/",
-    "enableParalax": false,
-    "enableClouds": false,
-    "image_format": "jpg",
-    "show_flat_polygons_tooltip": false,
-    "show_flat_polygons_tooltip_key": "area",
-    "defaultTheme": "light",
-    "class": "js-s3d__wrapper",
-    "SLIDER_MOBILE_FINGER_SWIPE": false,
-    "DISABLE_MOBILE_ZOOM": false,
-    "numberSlide": {
-      "min": 0,
-      "max": 101
-    },
-    "verticalAlig_faq": "top || center || bottom",
-    "verticalAlign": "center",
-    "horizontalAlign_faq": "left || center || right",
-    "horizontalAlign": "center",
-    "controlPoint": [
-      25,
-      50,
-      75,
-      100
-    ],
-    "activeSlide": 100,
-    "rotateSpeedDefault": 24,
-    "rotateSpeed": [],
-    "frameWithNorthDirection": 100,
-    "mouseSpeed": 0.5,
-    "startDegCompass": 60
-  },
   "flyby": {
     "1": {
       "outside": {
@@ -60,19 +17,19 @@
         "show_flat_polygons_tooltip_key": "area",
         "numberSlide": {
           "min": 0,
-          "max": 101
+          "max": 119
         },
         "verticalAlig_faq": "top || center || bottom",
-        "verticalAlign": "center",
+        "verticalAlign": "top",
         "horizontalAlign_faq": "left || center || right",
         "horizontalAlign": "center",
         "controlPoint": [
-          25,
-          50,
-          75,
-          100
+          1,
+          30,
+          60,
+          90
         ],
-        "activeSlide": 100,
+        "activeSlide": 1,
         "rotateSpeedDefault": 24,
         "rotateSpeed": [
           {
@@ -830,7 +787,7 @@
     "1-outside": "2027"
   },
   "assotiated_flat_builds_with_flybys": {},
-  "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d54204.086594275876!2d32.42532444498644!3d37.863231939273994!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzfCsDUxJzMyLjgiTiAzMsKwMjUnMTguNCJF!5e1!3m2!1sen!2sua!4v1768588564151!5m2!1sen!2sua",
+  "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28558.07815630491!2d29.259024!3d41.0380904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad37091fd3659%3A0x4a399c6fc00aead4!2zTmVmIMOHZWttZWvDtnkgU2F0xLHFnyBPZmlzaQ!5e1!3m2!1suk!2sua!4v1768484433154!5m2!1suk!2sua",
   "infoBoxes": {
     "general_flyby_button_titles": {
       "faq": "Можливі підписи для кнопок у інфобоксі обльоту : queue ,villa, house",
@@ -840,12 +797,12 @@
     }
   },
   "header": {
-    "logo": "/wp-content/themes/3d/assets/s3d/images/nef-logo.svg",
-    "logo_2": "/wp-content/themes/3d/assets/s3d/images/nef-meram-logo-big.svg",
+    "logo": "/wp-content/themes/3d/assets/s3d/images/logo.svg",
+    "logo_2": "/wp-content/themes/3d/assets/s3d/images/logo.svg",
     "menu_selector_default_FAQ": "data-open-menu // виставити це для дефолтного меню модуля, видалити",
     "menu_selector": "data-open-menu"
   },
-  "menu_top_img": "/wp-content/themes/3d/assets/s3d/images/nef-meram-logo-big.svg",
+  "menu_top_img": "/wp-content/themes/3d/assets/s3d/images/logo.svg",
   "currency_label": "₺",
   "currency_value": "TRY",
   "currency_list": [],
@@ -893,10 +850,10 @@
       }
     },
     "sales_department": {
-      "google_maps_link": "https://maps.app.goo.gl/2YL3L3n2Jv6xayvKA",
+      "google_maps_link": "https://maps.app.goo.gl/VgB1BeVS5vQUZjMh9",
       "text": {
-        "en": "Meram, Konya, Türkiye",
-        "tr": "Meram, Konya, Türkiye"
+        "en": "Nef Çekmeköy Sales Office, Nişantepe, 34794 Çekmeköy/İstanbul, Turkey",
+        "tr": "Nef Çekmeköy Satış Ofisi, Nişantepe Mah., 34794 Çekmeköy/İstanbul, Türkiye"
       }
     },
     "working_hours": {}
