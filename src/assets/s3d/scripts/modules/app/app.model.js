@@ -51,6 +51,7 @@ import $touchModePopup from '../templates/$touchModePopup';
 import { isDesktop, isDesktopTouchMode } from '../../../../s3d2/scripts/helpers/helpers_s3d2';
 import AudioAssistant from '../../../../s3d2/scripts/modules/AudioAssistant/AudioAssistant';
 import { isMobile } from './../helpers/helpers';
+import { Fancybox } from '@fancyapps/ui';
 
 const ErrorGetFlatsData = (i18n, hostname, keyMessage, type = '', newLocation) => err => {
   sendError(i18n, hostname, keyMessage, type, err);
@@ -108,6 +109,14 @@ class AppModel extends EventEmitter {
       this.modalManager.closeAll();
     });
     this.initTouchMode();
+    document.body.addEventListener('click', evt => {
+      const target = evt.target.closest('[data-fancybox-custom-gallery]');
+      if (!target) return;
+      Fancybox.show(
+        target.dataset.fancyboxCustomGallery.split(';').map(src => ({ src, type: 'image' })),
+      );
+
+    });
   }
 
   initTouchMode() {
@@ -448,6 +457,7 @@ class AppModel extends EventEmitter {
         /**opening handler in touch devices will be sliderModel.js and infobox*/
         return;
       }
+      if(elem.target.closest('.js-s3d-flat__3d-tour').getAttribute('data-fancybox-custom-gallery')) {return}
       new Popup(
         elem.target.closest('.js-s3d-flat__3d-tour').getAttribute('data-href'),
         elem.target.closest('.js-s3d-flat__3d-tour').getAttribute('data-title'),

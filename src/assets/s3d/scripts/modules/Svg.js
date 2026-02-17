@@ -340,7 +340,7 @@ class Svg {
   }
 
   createImagePin(x, y, pinData, $pin) {
-    const { iframe, type, img, description, title, filter_type, position } = pinData;
+    const { iframe, type, img, description, title, filter_type, position, images_for_slider } = pinData;
 
     $pin.classList.add('js-s3d-flat__3d-tour');
     $pin.dataset.href = img;
@@ -353,11 +353,17 @@ class Svg {
 
     $pin.dataset.title = pinText;
 
-    const polygonDataset = Object.entries($pin.dataset).reduce((acc, [key, value]) => {
+    let polygonDataset = Object.entries($pin.dataset).reduce((acc, [key, value]) => {
       acc += ` data-${key}="${value}" `;
       return acc;
     }, '');
 
+    if (Array.isArray(images_for_slider)) {
+      $pin.dataset.fancyboxCustomGallery = images_for_slider.join(';');
+      $pin.classList.remove('js-s3d-flat__3d-tour');
+
+      polygonDataset += ` data-fancybox-custom-gallery="${$pin.dataset.fancyboxCustomGallery}" `;
+    }
     // пін на сафарі фікс
     const isWindows = /Windows/i.test(navigator.userAgent);
     const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
@@ -393,9 +399,7 @@ class Svg {
           `data-pin-type="${type}"`,
           pinData,
         ) + polygonSafari
-      );
-    }
-
+      );}
     return SvgPin(
       x,
       y,

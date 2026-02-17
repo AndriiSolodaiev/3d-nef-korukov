@@ -370,45 +370,89 @@
     ],
     "checkboxes": [
       {
-        "title": "Filter.checkboxes.villa_type",
+        "title": "Filter.checkboxes.rooms",
         "type": "checkbox",
         "needTranslation": false,
         "translationNS": "Filter.rooms.",
         "paramaterByWhatWillBeFilter": "rooms"
       },
       {
-        "title": "Filter.checkboxes.type",
+        "title": "Filter.checkboxes.build",
         "type": "checkbox",
-        "needTranslation": true,
-        "translationNS": "Filter.type.",
-        "paramaterByWhatWillBeFilter": "villa_type"
-      },
-      {
-        "title": "Filter.checkboxes.parking_type",
-        "type": "checkbox",
-        "needTranslation": true,
-        "translationNS": "Filter.type.",
-        "paramaterByWhatWillBeFilter": "parking_type"
+        "needTranslation": false,
+        "translationNS": "Filter.rooms.",
+        "paramaterByWhatWillBeFilter": "build"
       }
     ]
   },
   "pinsInfo": {
-    "entrance_1": {
+    "tree_nursery": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
       "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
       "type": "pin",
       "position": "center",
       "title": {
-        "en": "Site Main Entrance",
-        "tr": "Site Girişi"
+        "en": "Tree nursery",
+        "tr": "Ağaç Ormanı"
       },
       "iframe": "",
       "description": {
-        "en": "Site Main Entrance",
-        "tr": "Site Girişi"
+        "en": "Tree nursery & Children's Playground",
+        "tr": "Ağaç Ormanı & Çocuk Oyun Alanı"
       },
-      "img": "/wp-content/themes/3d/assets/s3d/images/pins/site_main_entrance_new.jpg",
-      "filter_type": "arrow"
+      "img": ""
+      
+    },
+    "tree_nursery_2": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "pin",
+      "position": "center",
+      "title": {
+        "en": "Tree nursery",
+        "tr": "Ağaç Ormanı"
+      },
+      "iframe": "",
+      "description": {
+        "en": "Tree nursery & Children's Playground",
+        "tr": "Ağaç Ormanı & Çocuk Oyun Alanı"
+      },
+      "img": ""
+      
+    },
+    "social": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "pin",
+      "position": "center",
+      "title": {
+        "en": "Social Facilities",
+        "tr": "Sosyal Tesisler"
+      },
+      "iframe": "",
+      "description": {
+        "en": "Social Facilities",
+        "tr": "Sosyal Tesisler"
+      },
+      "img": ""
+      
+    },
+    "retail": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "pin",
+      "position": "center",
+      "title": {
+        "en": "Retail Block",
+        "tr": "Perakende Bloku"
+      },
+      "iframe": "",
+      "description": {
+        "en": "Retail Block",
+        "tr": "Perakende Bloku"
+      },
+      "img": ""
+      
     },
     "lounge": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
