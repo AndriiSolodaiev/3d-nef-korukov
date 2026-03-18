@@ -62,7 +62,15 @@ export default function s3d2_MobileFlybyController(i18n, config) {
           )}
         </div>
     </div>
+    
     ${s3d2_SpinNav(i18n)}
+    ${s3d2_Dropdown(
+      dataForFlybyDropdown,
+      `${i18n.t('ctr.nav.flyby')}`,
+      'Chevron down',
+      FLYBY_DROPDOWN_ATTRIBUTES,
+      'js-s3d-nav__btn dropup',
+    )}
   `;
 }
 

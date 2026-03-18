@@ -16,7 +16,7 @@ export default function s3d2_Dropdown(
 ) {
   return `
   <div class="s3d2-Dropdown ${className}" ${attributes}>
-    <div class="s3d2-Dropdown__title">${title} ${s3d2spriteIcon(iconName, className)}</div>
+    <div class="s3d2-Dropdown__title"><span>${title}</span> ${s3d2spriteIcon(iconName, className)}</div>
       <div class="s3d2-Dropdown__content">
         ${data
           .map(item => {

@@ -89,6 +89,16 @@ function Flat({
   payment_list = [],
   contact_block_variant,
 }) {
+  function s3d2_CalculatorScreen(children = '', className = '') {
+    return `
+    <div class="calculator-screen">
+      <div class="villa__contact-location ${className}">
+        ${children}
+      </div>
+    </div>
+  `;
+  }
+  
   const CONFIG = getConfig();
 
   const contactFormHtml1 = renderVillaContact(i18n, managerInfo, contactAdvantagesList);
@@ -125,7 +135,26 @@ function Flat({
     contact_block_variant == '3' ? extractContainerId(s3d2_contactFormHtml3) : '';
 
   const isChecked = favouritesIds$.value.includes(flat.id);
-
+function s3d2_PanoramaScreen () {
+  const currentLang = document.documentElement.lang || 'tr';
+    return `
+     <section class="panorama-screen">
+    <div class="payment__title-icon-container">
+        <h1 class="payment__title-icon-container__title">${i18n.t('Flat.panorama')}</h1>
+        <div class="payment__icon-info-block">
+          <svg class="payment__icon-info-block__icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M7 0C3.13404 0 0 3.13404 0 7C0 10.866 3.13404 14 7 14C10.866 14 14 10.866 14 7C14 3.13404 10.866 6.44269e-08 7 0ZM6.49414 5.64258C6.89296 5.64263 7.20081 5.74476 7.41699 5.94922C7.63313 6.15359 7.74121 6.41997 7.74121 6.74707C7.74118 6.81456 7.73381 6.93343 7.71875 7.10352C7.70374 7.27424 7.67603 7.4311 7.63574 7.57324L7.22266 9.125C7.18919 9.24939 7.15957 9.39179 7.13281 9.55176C7.10595 9.71173 7.0918 9.83324 7.0918 9.91504C7.09185 10.1208 7.13562 10.2614 7.22266 10.3359C7.30978 10.4106 7.46125 10.4482 7.67578 10.4482C7.7763 10.4482 7.89024 10.4289 8.01758 10.3916C8.14481 10.3543 8.23695 10.3215 8.29395 10.293L8.18359 10.7734C7.85171 10.9121 7.58641 11.0179 7.38867 11.0908C7.19094 11.1636 6.96154 11.2002 6.7002 11.2002C6.29807 11.2002 5.98562 11.0957 5.7627 10.8877C5.53975 10.6797 5.42773 10.4157 5.42773 10.0957C5.42774 9.9715 5.43636 9.84449 5.45312 9.71484C5.46992 9.58515 5.49636 9.43804 5.5332 9.27441L5.94531 7.7168C5.98212 7.56764 6.01389 7.42613 6.03906 7.29297C6.06411 7.15974 6.07617 7.03795 6.07617 6.92773C6.07615 6.72876 6.03797 6.58985 5.96094 6.51172C5.88379 6.43354 5.73626 6.39456 5.51855 6.39453C5.41128 6.39453 5.30078 6.41262 5.18848 6.44824C5.07638 6.4837 4.97971 6.51682 4.89941 6.54883L5.01074 6.06934C5.28219 5.95205 5.54199 5.85104 5.79004 5.76758C6.03797 5.68404 6.27296 5.64258 6.49414 5.64258ZM7.41406 2.7998C7.68563 2.7998 7.91767 2.89596 8.11035 3.08789C8.30315 3.27991 8.3994 3.51107 8.39941 3.78125C8.39941 4.0514 8.30314 4.28144 8.11035 4.47168C7.91764 4.66193 7.6857 4.75684 7.41406 4.75684C7.14253 4.75683 6.90935 4.66193 6.71484 4.47168C6.52065 4.28149 6.42383 4.05129 6.42383 3.78125C6.42384 3.51114 6.52053 3.27991 6.71484 3.08789C6.90934 2.89586 7.14251 2.79981 7.41406 2.7998Z" fill="var(--s3d2-color-text-gray-900)" fill-opacity="0.2"/>
+          </svg>
+          <div class="payment__icon-info-block__text-block">
+            <p class="payment__icon-info-block__text-block__text">${i18n.t('Flat.panorama_info')}</p>
+          </div>
+        </div>
+      </div>
+      <p class="payment__description">${i18n.t('Flat.panorama_description')}</p>
+      <iframe class="payment__iframe" src=${CONFIG.panorama_view[currentLang]} loading="lazy"></iframe>
+      </section>
+    `;
+  };
   const specifiedFlybyByGroup = groupBy(flat.specifiedFlybys, e => {
     return `flyby_${e.flyby}_${e.side}`;
   });
@@ -209,6 +238,8 @@ function Flat({
       ${s3d2FlatFloorPlan(i18n, flat, floorList, socialMediaLinks, contacts)}
       ${s3d2_paymentSection({ i18n, flat, payment_list })}
       ${$additionalAmenities(flat)}
+      
+      ${s3d2_PanoramaScreen()}
       ${s3dApartmentsList(i18n, flat, favouritesIds$, showPrices, otherTypeFlats)}
       ${s3d2_contactFormHtml1}
       ${s3d2_contactFormHtml2}

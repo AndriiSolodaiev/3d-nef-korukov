@@ -121,55 +121,33 @@ export default function s3d2_navBar(i18n, { logo }) {
 
   const dataForFlybyDropdown = defineFlybyDropdownData(config, undefined, i18n);
 
-  // window.addEventListener('updateFsm', e => {
-  //   const dataForFlybyDropdown = defineFlybyDropdownData(config, e, i18n);
-  //   const history = window.history;
-  //   let prevType = '';
-  //   if (history.prevState && history.prevState.type === 'flyby' && e.detail.type === 'flat') {
-  //     prevType = history.prevState.type;
-  //   }
-  //   const isCurrentStateIsFlatAndPrevIsFlyby = prevType === 'flyby' && e.detail.type === 'flat';
+  
+// window.addEventListener('popstate', e => {
+//   // Отримуємо параметри з поточного URL
+//   if (type === 'flyby' && flyby !== '1' && side !== 'outside') {
+//   const urlParams = new URLSearchParams(window.location.search);
+//   const type = urlParams.get('type');
+//   const flyby = urlParams.get('flyby');
+//   const side = urlParams.get('side');
 
-  //   document
-  //     .querySelector(`[${FLYBY_DROPDOWN_ATTRIBUTES}]`)
-  //     .insertAdjacentHTML(
-  //       'afterend',
-  //       Dropdown(
-  //         dataForFlybyDropdown,
-  //         i18n,
-  //         FLYBY_DROPDOWN_ATTRIBUTES,
-  //         e.detail.type === 'flyby' || isCurrentStateIsFlatAndPrevIsFlyby ? 'highlighted' : '',
-  //       ),
-  //     );
-  //   document.querySelector(`[${FLYBY_DROPDOWN_ATTRIBUTES}]`).remove();
+//   // Перевірка умов: type=flyby, flyby не дорівнює 1, side не дорівнює outside
+  
+    
+//     // Знаходимо елемент заголовка
+//     const dropdownTitle = document.querySelector('.s3d2-Dropdown__title');
+//     const dropdownTitleSpan = dropdownTitle.querySelector('span');
 
-  //   e.detail.type === 'plannings'
-  //     ? document.querySelector('[data-s3d2-header-plannings]').classList.add('highlighted')
-  //     : document.querySelector('[data-s3d2-header-plannings]').classList.remove('highlighted');
+//     if (dropdownTitle) {
+//       // Формуємо ключ перекладу та записуємо текст
+//       // Використовуємо i18n.t(ctr.nav.flyby_номер_сторона)
+//       const translationKey = `ctr.nav.flyby_${flyby}_${side}`;
+//       dropdownTitleSpan.textContent = i18n.t(translationKey);
 
-  //   const headerApartmentButton = document.querySelectorAll(`[${FLAT_PLAN_GROUP}]`);
-  //   const headerFloorButton = document.querySelectorAll(`[${FLOOR_PLAN_GROUP}]`);
-  //   const headerFlybyDropdown = document.querySelectorAll(`[${FLYBY_DROPDOWN_ATTRIBUTES}]`);
-
-  //   headerApartmentButton.forEach(
-  //     el => (el.style.display = /flat/.test(e.detail.type) ? '' : 'none'),
-  //   );
-  //   headerFloorButton.forEach(
-  //     el => (el.style.display = /floor|flat/.test(e.detail.type) ? '' : 'none'),
-  //   );
-  //   headerFlybyDropdown.forEach(
-  //     el => (el.style.display = /genplan/.test(e.detail.type) ? 'none' : ''),
-  //   );
-  //   if (e.detail.type === 'flat') {
-  //     const flat = e.detail.getFlat(e.detail.id);
-  //     const { floor, build, section } = flat;
-  //     headerFloorButton.forEach(el => {
-  //       el.dataset.floor = floor;
-  //       el.dataset.build = build;
-  //       el.dataset.section = section;
-  //     });
-  //   }
-  // });
+//       // Додаємо клас "active"
+//       dropdownTitle.classList.add('active');
+//     }
+//   }
+// });
 
   const $logo = logo
     ? `<img src="${logo}" alt="logo">`
@@ -224,7 +202,7 @@ export default function s3d2_navBar(i18n, { logo }) {
         }
         ${s3d2_Dropdown(
           dataForFlybyDropdown,
-          `${i18n.t('ctr.nav.mansion')}`,
+          `${i18n.t('ctr.nav.flyby')}`,
           'Chevron down',
           FLYBY_DROPDOWN_ATTRIBUTES,
           'chevron-down',

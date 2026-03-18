@@ -262,3 +262,13 @@
     color: var(--s3d2-color-text-gray-900);
   }
 }
+
+.panorama-screen {
+  padding: var(--space-32) 0 0 0;
+ iframe {
+    width: 100%;
+    height: 80vh;
+    
+  }
+}
+

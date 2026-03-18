@@ -52,7 +52,11 @@
     cursor: pointer;
     fill: vars.$svg-active;
   }
-
+  &[data-type=flyby]{
+    &[data-flyby="8"][data-side="inside"],&[data-flyby="9"],&[data-flyby="10"],&[data-flyby="11"],&[data-flyby="12"],&[data-flyby="13"],&[data-flyby="14"],&[data-flyby="15"],&[data-flyby="16"],&[data-flyby="17"],&[data-flyby="18"],&[data-flyby="19"],&[data-flyby="20"]{
+      display: none;
+    }
+  }
   // &[data-type="flyby"] {
   //   stroke: transparent;
   //   stroke-width: 2px;

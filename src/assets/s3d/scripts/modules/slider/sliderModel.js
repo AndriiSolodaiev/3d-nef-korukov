@@ -1375,11 +1375,12 @@ class SliderModel extends EventEmitter {
 
       this.wrapper[0].style.overflowX = scale ? 'hidden' : 'auto';
       img.style.objectFit = scale ? 'contain' : 'cover';
+      img.classList.toggle('zoom-in', scale);
       if (video) video.style.objectFit = scale ? 'contain' : 'cover';
 
       this.wrapper[0].querySelectorAll('svg[preserveAspectRatio]').forEach(svg => {
         const [ align ] = svg.getAttribute('preserveAspectRatio').split(' ');
-        svg.setAttributeNS(null, 'preserveAspectRatio', `${align} ${scale ? 'meet' : 'slice'}`);
+        svg.setAttributeNS(null, 'preserveAspectRatio', `${scale ? "XMidYMid": align} ${scale ? 'meet' : 'slice'}`);
       });
       this.wrapper[0].querySelectorAll('[data-slider-mobile-scale-container]').forEach(el => el.remove())
       if (scale) {
@@ -1392,6 +1393,7 @@ class SliderModel extends EventEmitter {
     this.isMobileContainerMinified$$.subscribe(scale => {
       if (scale === null) return;
       const canvas = this.wrapper[0].querySelector('canvas');
+      this.wrapper[0].querySelector('img').classList.add('zoom-in', scale);
       if (scale) {
         this.centerSlider(this.wrapper[0]);
         this.onMobileContainerZoomIn(() => {
@@ -1496,12 +1498,13 @@ class SliderModel extends EventEmitter {
     copyContainerForAnimation.classList.add('s3d__flyby-mobile-scale-zoom-out-animation-container');
     copyContainerForAnimation.style.width = '100%';
     imgCopy.style.objectFit = 'contain';
+    imgCopy.style.objectPosition = 'center center';
     copyContainerForAnimation.appendChild(imgCopy);
     copyContainerForAnimation.appendChild(svgCopy);
     document.querySelector('.js-s3d__slideModule').appendChild(copyContainerForAnimation);
 
     const ratio = (this.width * window.innerHeight / this.height) / window.innerWidth;
-
+    svgCopy.style.opacity = '0';
     gsap.to(copyContainerForAnimation, { duration: 1.25, ease: "power4.inOut", scale: ratio, onComplete: () => {
       onBeforeAnimElementDelete();
       document.querySelector('.js-s3d__slideModule').removeChild(copyContainerForAnimation);

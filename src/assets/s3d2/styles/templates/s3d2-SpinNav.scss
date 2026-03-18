@@ -179,8 +179,12 @@
       transform: scale(1.05);
     }
 
-    position: static;
+    position: relative;
     transform: none;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     backdrop-filter: none;

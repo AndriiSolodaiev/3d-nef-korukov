@@ -17,12 +17,12 @@ function general(i18n, data) {
     finishDate,
     side,
     buttonType,
-    show_prices,
+    show_prices = true,
   } = data;
   if (!type) {
     return '';
   }
-
+  
   const $freeObjectsTitle = flatsCount
     ? `
   <div class="s3d-infoBox__block">
@@ -49,7 +49,7 @@ function general(i18n, data) {
     <div class="s3d-infoBox__title">
       ${i18n.t('infoBox.from_price', {
         text: numberWithCommas(minPriceM2),
-        currency: i18n.t('currencies.' + currency),
+        currency: i18n.t('currency_label'),
       })}
     </div>
   </div>
@@ -59,10 +59,10 @@ function general(i18n, data) {
     show_prices && minPrice
       ? `
   <div class="s3d-infoBox__block">
-    <div class="s3d-infoBox__subtitle">${i18n.t('infoBox.price_from')} </div>
+    
     <div class="s3d-infoBox__title">${i18n.t('infoBox.from_price', {
       text: numberWithCommas(minPrice),
-      currency: i18n.t('currencies.' + currency),
+      currency: i18n.t('currency_label'),
     })}</div>
   </div>
   `
@@ -76,7 +76,7 @@ function general(i18n, data) {
         </span></div>
         ${$freeObjectsTitle}
         ${$finishDate}
-        ${$minPriceM2}
+        
         ${$minPrice}
         ${
           isDesktop() && isNotDesktopTouchMode()

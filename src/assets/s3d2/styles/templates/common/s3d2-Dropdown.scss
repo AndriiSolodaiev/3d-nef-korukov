@@ -34,7 +34,12 @@
       }
     }
   }
-
+  &.dropup .s3d2-Dropdown__content{
+    top: auto;
+    bottom: 100%;
+    left: 0;
+    transform: translate(0,0);
+  }
   &.highlighted &__title {
     // background-color: var(--color-surface-brand-800);
     // border-color: var(--border-brand-800);

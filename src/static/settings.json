@@ -17,7 +17,7 @@
         "show_flat_polygons_tooltip_key": "area",
         "numberSlide": {
           "min": 0,
-          "max": 119
+          "max": 159
         },
         "verticalAlig_faq": "top || center || bottom",
         "verticalAlign": "top",
@@ -25,17 +25,707 @@
         "horizontalAlign": "center",
         "controlPoint": [
           1,
-          30,
-          60,
-          90
+          41,
+          81,
+          121
         ],
         "activeSlide": 1,
+        
         "rotateSpeedDefault": 24,
         "rotateSpeed": [
           {
             "min": 79,
             "max": 100,
             "ms": 40
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },"2": {
+      "outside": {
+        "id": "flyby_2_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/1/",
+        "sd_imageUrl": "images/flyby/1/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_2_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/2/",
+        "sd_imageUrl": "images/flyby/2/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },"3": {"outside": {
+        "id": "flyby_3_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/3/",
+        "sd_imageUrl": "images/flyby/3/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 162
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          83,
+          123
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_3_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/4/",
+        "sd_imageUrl": "images/flyby/4/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "4": {
+      "outside": {
+        "id": "flyby_4_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/5/",
+        "sd_imageUrl": "images/flyby/5/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_4_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/6/",
+        "sd_imageUrl": "images/flyby/6/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "5": {
+      "outside": {
+        "id": "flyby_5_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/7/",
+        "sd_imageUrl": "images/flyby/7/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 157
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          118
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_5_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/8/",
+        "sd_imageUrl": "images/flyby/8/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 158
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          79,
+          119
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 20
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "6": {
+      "outside": {
+        "id": "flyby_6_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/9/",
+        "sd_imageUrl": "images/flyby/9/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 164
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          45,
+          85,
+          125
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_6_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/10/",
+        "sd_imageUrl": "images/flyby/10/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 158
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 20
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "7": {
+      "outside": {
+        "id": "flyby_7_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/11/",
+        "sd_imageUrl": "images/flyby/11/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          127
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_7_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/12/",
+        "sd_imageUrl": "images/flyby/12/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 20
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "8": {
+      "outside": {
+        "id": "flyby_8_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/13/",
+        "sd_imageUrl": "images/flyby/13/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+      
+    },
+    "11": {
+      "inside": {
+        "id": "flyby_11_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/20/",
+        "sd_imageUrl": "images/flyby/20/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+      
+    },
+    "12": {
+      "outside": {
+        "id": "flyby_12_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/21/",
+        "sd_imageUrl": "images/flyby/21/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          127
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_12_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/22/",
+        "sd_imageUrl": "images/flyby/22/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 20
           }
         ],
         "frameWithNorthDirection": 100,
@@ -102,197 +792,167 @@
       }
     ],
     "faq_questions": [
-      {
-        "question": {
-          "en": "PROJECT OVERVIEW",
-          "tr": "PROJE ÖZETİ"
-        },
-        "answer": {
-          "en": "<p>NEF Meram is a distinctive villa project designed on a sloping terrain that offers panoramic views of the Meram Valley Gardens and the city of Konya. Spanning over 106,000 m², the project stands out with its modern architectural approach inspired by traditional Konya houses.</p><br><p>NEF Meram consists of 132 villas with layouts ranging from 3+1 to 6+1. All villas are designed as two-story residences, featuring terraces, winter gardens, and spacious interiors suitable for year-round living. With its indoor and outdoor social facilities, smart site planning that allows access from different levels, and prestigious location, NEF Meram offers an exclusive living standard in Konya.</p><br><p>The patented Foldhome system extends living spaces beyond the villa itself through shared areas designed for sports, social activities, hosting guests, and daily needs. These areas are used only when needed and do not add unnecessary maintenance costs, creating a more flexible and intelligent living experience.</p>",
-          "tr": "<p>NEF Meram, Konya’nın tamamına hâkim bir noktada, eğimli arazi yapısının sunduğu eşsiz Meram Bağları ve şehir manzarasıyla tasarlanmış özel bir villa projesidir. 106.000 m²’yi aşan geniş bir alanda konumlanan proje, geleneksel Konya evlerinden ilham alan modern mimarisiyle öne çıkıyor.</p><br><p>Toplam 132 adet villadan oluşan NEF Meram’da 3+1’den 6+1’e kadar farklı villa tipleri yer alıyor. Tüm villalar iki katlı; terasları, kış bahçeleri ve geniş iç mekân çözümleriyle yılın her mevsimine uyum sağlıyor. Proje; kapalı ve açık sosyal alanları, farklı kotlardan erişim imkânı sunan akıllı yerleşim planı ve prestijli konumuyla Konya’da ayrıcalıklı bir yaşam standardı sunuyor.</p><br><p>Projede yer alan NEF patentli Foldhome sistemi, evin metrekaresini yaşam alanı olarak genişleten ortak kullanımlı alanlar sunar. Spor, sosyalleşme, misafir ağırlama ve günlük ihtiyaçlara yönelik bu alanlar, ihtiyaç duyulduğunda kullanılır; kullanılmadığında ise aidat yükü yaratmaz. Böylece daha ferah, daha esnek ve akıllı bir yaşam modeli sağlar.</p>"
-        }
-      },
-      {
-        "question": {
-          "en": "1. How many villas are there in NEF Meram?",
-          "tr": "1. NEF Meram kaç villadan oluşuyor?"
-        },
-        "answer": {
-          "en": "The project consists of a total of 132 villas.",
-          "tr": "Proje toplam 132 adet villadan oluşmaktadır."
-        }
-      },
-      {
-        "question": {
-          "en": "2. What villa types and layouts are available?",
-          "tr": "2. Villa tipleri ve oda seçenekleri nelerdir?"
-        },
-        "answer": {
-          "en": "NEF Meram offers 3+1, 4+1, 5+1, and 6+1 villa options, including duplex and reverse-duplex layouts.",
-          "tr": "NEF Meram’da 3+1, 4+1, 5+1 ve 6+1 villa seçenekleri bulunmaktadır. Ters dubleks ve dubleks plan alternatifleri mevcuttur."
-        }
-      },
-      {
-        "question": {
-          "en": "3. Do all villas have a view?",
-          "tr": "3. Tüm villalar manzaraya sahip mi?"
-        },
-        "answer": {
-          "en": "Yes. Thanks to the sloping terrain, all villas enjoy panoramic views of the city of Konya.",
-          "tr": "Evet. Arazinin eğimli yapısı sayesinde projedeki tüm villalar Konya şehir manzarasına hâkimdir."
-        }
-      },
-      {
-        "question": {
-          "en": "4. Is the land a foundation (waqf) property?",
-          "tr": "4. Arazi vakıf arazisi mi?"
-        },
-        "answer": {
-          "en": "No. The project land is not a foundation property. It is owned by Timur Real Estate Development Construction and Investment Inc. and was purchased from the Meram Municipality. Relevant documents can be shared upon request.",
-          "tr": "Hayır. Proje arazisi vakıf arazisi değildir. Arazi, Timur Gayrimenkul Geliştirme Yapı ve Yatırım A.Ş.’nin Meram Belediyesi’nden satın almış olduğu bir arazidir. Talep edilmesi halinde ilgili belgeler paylaşılabilmektedir."
-        }
-      },
-      {
-        "question": {
-          "en": "5. How is the delivery and occupancy schedule planned?",
-          "tr": "5. Teslim ve oturum takvimi nasıl planlanıyor?"
-        },
-        "answer": {
-          "en": "The project is developed in three phases. Villas in the first phase are planned for occupancy in December 2026 together with social facilities. Subsequent phases are planned to be delivered at one-year intervals.",
-          "tr": "Proje 3 etap halinde ilerlemektedir. İlk etapta yer alan villalar için 2026 Aralık ayında, sosyal alanlarla birlikte oturum planlanmaktadır. Diğer etapların ise birer yıl arayla teslim edilmesi planlanmaktadır."
-        }
-      },
-      {
-        "question": {
-          "en": "6. How many phases does NEF Meram consist of?",
-          "tr": "6. NEF Meram kaç etap halinde geliştiriliyor?"
-        },
-        "answer": {
-          "en": "The project is planned in three phases.",
-          "tr": "Proje 3 etap halinde planlanmıştır."
-        }
-      },
-      {
-        "question": {
-          "en": "7. What are the delivery dates for the phases?",
-          "tr": "7. Etap teslim tarihleri nasıl planlanıyor?"
-        },
-        "answer": {
-          "en": "The first phase, consisting of 44 villas, is planned for occupancy in December 2026 along with social facilities. Other phases will be delivered at one-year intervals.",
-          "tr": "1.etapta yer alan 44 villa için 2026 Aralık ayında, sosyal alanlarla birlikte oturum planlanmaktadır. Diğer etaplar birer yıl arayla teslim edilecektir."
-        }
-      },
-      {
-        "question": {
-          "en": "8. Are claims that construction has stopped accurate?",
-          "tr": "8. İnşaatın uzun süredir durduğu iddiaları doğru mu?"
-        },
-        "answer": {
-          "en": "No. Construction is ongoing. Infrastructure and site works may not always be visible from outside.",
-          "tr": "Hayır. İnşaat çalışmaları devam etmektedir. Altyapı ve saha çalışmaları dışarıdan her zaman görünmemektedir."
-        }
-      },
-      {
-        "question": {
-          "en": "9. Are all villas two-story?",
-          "tr": "9. Projedeki tüm villalar iki katlı mı?"
-        },
-        "answer": {
-          "en": "Yes. All villas in NEF Meram are designed as two-story duplex residences.",
-          "tr": "Evet. NEF Meram’daki tüm villalar iki katlı-dubleks olarak tasarlanmıştır."
-        }
-      },
-      {
-        "question": {
-          "en": "10. What does upper-level and lower-level entrance mean?",
-          "tr": "10. Üstten ve alttan girişli villa ne demek?"
-        },
-        "answer": {
-          "en": "Due to the terrain structure, some villas are accessed from an upper level, while others have entrances from a lower level—providing both functional advantages and optimal views.",
-          "tr": "Arazi yapısı gereği bazı villalara üst kottan, bazı villalara ise alt kottan giriş sağlanmaktadır. Bu sayede hem manzara hem de kullanım avantajı elde edilmektedir."
-        }
-      },
-      {
-        "question": {
-          "en": "11. How are parking solutions designed?",
-          "tr": "11. Otopark çözümleri nasıl?"
-        },
-        "answer": {
-          "en": "Villas with upper-level entrances feature open parking, while villas with lower-level entrances include covered parking.",
-          "tr": "Üstten girişli villalarda açık otopark, alttan girişli villalarda ise kapalı otopark bulunmaktadır."
-        }
-      },
-      {
-        "question": {
-          "en": "12. Do villas include terraces or winter gardens?",
-          "tr": "12. Villalarda teras ve kış bahçesi var mı?"
-        },
-        "answer": {
-          "en": "Yes. Depending on the villa type, terraces and winter gardens are available and designed for year-round use.",
-          "tr": "Evet. Villa tipine göre teras ve kış bahçesi çözümleri bulunmaktadır; bu alanlar dört mevsim kullanıma uygundur."
-        }
-      },
-      {
-        "question": {
-          "en": "13. Are elevator-ready villas available?",
-          "tr": "13. Asansörlü villa seçeneği mevcut mu?"
-        },
-        "answer": {
-          "en": "Yes. Elevator shafts are pre-planned in the 6+1 villa types.",
-          "tr": "Evet. 6+1 villa tiplerinde asansör yeri önceden planlanmıştır."
-        }
-      },
-      {
-        "question": {
-          "en": "14. What social facilities are available?",
-          "tr": "14. Sosyal alanlar nelerden oluşuyor?"
-        },
-        "answer": {
-          "en": "Indoor facilities include a fitness area, indoor swimming pool, cinema & event spaces, kids’ club, and guest rooms. Outdoor areas feature sports courts. These facilities are offered under NEF’s patented Foldhome system and integrated across phases to expand living spaces when needed.",
-          "tr": "Kapalı sosyal alanlarda fitness, kapalı havuz, sinema & etkinlik alanları, kids club ve misafir odaları; açık alanlarda ise spor sahaları yer almaktadır. Bu alanlar NEF’in patentli Foldhome sistemi kapsamında, ihtiyaç duyulduğunda kullanılan ve yaşam alanını genişleten ortak alanlar olarak etaplar arasında entegre şekilde sunulmaktadır."
-        }
-      },
-      {
-        "question": {
-          "en": "15. How are social facilities positioned within the site?",
-          "tr": "15. Sosyal alanlar site içinde nasıl konumlandırıldı?"
-        },
-        "answer": {
-          "en": "Social facilities are distributed across five different points within the site, bringing together complementary functions.",
-          "tr": "Sosyal alanlar site içerisinde beş farklı noktada, birbirini tamamlayan fonksiyonlar bir araya getirilerek konumlandırılmıştır."
-        }
-      },
-      {
-        "question": {
-          "en": "16. Who is NEF Meram suitable for?",
-          "tr": "16. NEF Meram kimler için uygun bir proje?"
-        },
-        "answer": {
-          "en": "NEF Meram is ideal for families seeking spacious villa living, those looking for a prestigious residence in Konya, and long-term investors.",
-          "tr": "Geniş metrekareli villa yaşamı arayan aileler, Konya’da prestijli bir konut isteyenler ve uzun vadeli yatırım düşünenler için uygundur."
-        }
-      },
-      {
-        "question": {
-          "en": "17. What is the project’s strongest feature?",
-          "tr": "17. Projenin en güçlü öne çıkan özelliği nedir?"
-        },
-        "answer": {
-          "en": "The panoramic city and Meram Valley Gardens views from all villas, combined with modern architecture inspired by traditional Konya design.",
-          "tr": "Tüm villaların şehir ve Meram Bağları manzarasına sahip olması ve geleneksel Konya mimarisinden ilham alan modern tasarımı öne çıkmaktadır."
-        }
-      },
-      {
-        "question": {
-          "en": "18. Are sales ongoing?",
-          "tr": "18. Satışlar devam ediyor mu?"
-        },
-        "answer": {
-          "en": "Yes. Sales for the current phases and available units are ongoing.",
-          "tr": "Evet. Mevcut etap ve üzerinden satışlar devam etmektedir."
-        }
-      }
-    ],
+  {
+    "question": {
+      "en": "NEF KORUKÖY | PROJECT OVERVIEW",
+      "tr": "NEF KORUKÖY | PROJE ÖZETİ"
+    },
+    "answer": {
+      "en": "<p>NEF Koruköy offers a refined residential lifestyle in Çekmeköy Alemdağ, surrounded by nature and shaped by low-rise architecture that respects the character of the region. Set on a land area exceeding 77,000 m², the project stands out with its diverse apartment types designed for different lifestyles, balconies or terraces in every unit, and integrated social facilities shared seamlessly across phases.</p><br><p>Apartment options ranging from 1+1 to 4+1 feature garden, terrace, or balcony alternatives, creating a breathing space within the city. The on-site social facilities—ranging from an outdoor swimming pool to fitness areas—bring everyday amenities right next to your home. NEF Koruköy offers a balanced, peaceful, and sustainable living environment for both families and investors.</p><br><p>NEF’s patented Foldhome system extends the living space beyond the apartment itself through shared areas designed for sports, socializing, hosting guests, and daily needs. These spaces are available when needed and do not create additional maintenance costs when not in use—offering a smarter, more flexible, and more spacious way of living.</p>",
+      "tr": "<p>NEF Koruköy, Çekmeköy Alemdağ’da doğayla çevrili, az katlı mimarisiyle bölgenin yapısına saygılı bir yaşam anlayışı sunuyor. 77.000 m²’yi aşan geniş arsa alanı üzerinde konumlanan proje; farklı yaşam tarzlarına hitap eden daire tipleri, her dairede balkon veya teras kullanımı ile etaplar arası entegre sosyal alanlarıyla öne çıkıyor.</p><br><p>1+1’den 4+1’e uzanan daire seçenekleri; bahçe, teras veya balkon alternatifleriyle şehir içinde nefes alabileceğiniz bir yaşam kurgusu sunuyor. Proje içinde yer alan sosyal tesis, açık havuzdan fitness alanlarına kadar uzanan donatılarıyla günlük hayatı evinizin hemen yanına taşıyor. NEF Koruköy, hem aileler hem de yatırımcılar için dengeli, sakin ve sürdürülebilir bir yaşam vadediyor.</p><br><p>Projede yer alan NEF patentli Foldhome sistemi, evin metrekaresini yaşam alanı olarak genişleten ortak kullanımlı alanlar sunar. Spor, sosyalleşme, misafir ağırlama ve günlük ihtiyaçlara yönelik bu alanlar, ihtiyaç duyulduğunda kullanılır; kullanılmadığında ise aidat yükü yaratmaz. Böylece daha ferah, daha esnek ve akıllı bir yaşam modeli sağlar.</p>"
+    }
+  },
+  {
+    "question": {
+      "en": "1. Where is NEF Koruköy located?",
+      "tr": "1. NEF Koruköy nerede konumlanıyor?"
+    },
+    "answer": {
+      "en": "NEF Koruköy is located in Çekmeköy-Alemdağ, Istanbul, surrounded by nature and close to the Şile Connection Road, the Northern Marmara Motorway, and university districts.",
+      "tr": "NEF Koruköy, İstanbul Çekmeköy-Alemdağ’da; Şile Bağlantı Yolu ile Kuzey Marmara Otoyolu’na ve üniversite bölgelerine yakın, doğayla iç içe bir konumda yer alıyor."
+    }
+  },
+  {
+    "question": {
+      "en": "2. What types of apartments are available?",
+      "tr": "2. Projede hangi daire tipleri bulunuyor?"
+    },
+    "answer": {
+      "en": "The project offers 1+1, 2+1, 3+1, and 4+1 apartment options. Thanks to different block typologies, it caters to both small households and large families.",
+      "tr": "Projede 1+1, 2+1, 3+1 ve 4+1 daire tipleri bulunuyor. Farklı blok tipolojileri sayesinde hem küçük haneler hem de geniş aileler için alternatifler sunuluyor."
+    }
+  },
+  {
+    "question": {
+      "en": "3. Does every apartment include an outdoor space?",
+      "tr": "3. Her dairede açık alan var mı?"
+    },
+    "answer": {
+      "en": "Yes. All apartments at NEF Koruköy feature an outdoor space such as a balcony, terrace, or a private garden.",
+      "tr": "Evet. NEF Koruköy’de tüm dairelerde balkon, teras veya tahsisli bahçe gibi açık alan çözümleri bulunuyor."
+    }
+  },
+  {
+    "question": {
+      "en": "4. What social facilities are available?",
+      "tr": "4. Sosyal alanlarda neler var?"
+    },
+    "answer": {
+      "en": "The project includes an outdoor swimming pool, fitness & pilates areas, guest accommodation units, and social activity spaces. These facilities are offered as shared living areas under NEF’s patented Foldhome system and are integrated across phases.",
+      "tr": "Açık yüzme havuzu, fitness & pilates alanları, misafir konaklama birimleri ve sosyal etkinlik alanları projede yer alıyor. Bu alanlar NEF’in patentli Foldhome sistemi kapsamında etaplar arasında entegre şekilde sunuluyor."
+    }
+  },
+  {
+    "question": {
+      "en": "5. Are there commercial units within the project?",
+      "tr": "5. Projede ticari alan bulunuyor mu?"
+    },
+    "answer": {
+      "en": "Yes. The project includes commercial units that are planned separately from residential areas.",
+      "tr": "Evet. Proje içerisinde konut alanlarından ayrıştırılmış şekilde planlanan ticari üniteler de yer alıyor."
+    }
+  },
+  {
+    "question": {
+      "en": "6. How many residential units are there in the project?",
+      "tr": "6. Projede kaç konut bulunuyor?"
+    },
+    "answer": {
+      "en": "NEF Koruköy consists of a total of 997 residential units and 6 commercial units.",
+      "tr": "NEF Koruköy projesinde toplam 997 adet konut ve 6 adet ticari ünite yer almaktadır."
+    }
+  },
+  {
+    "question": {
+      "en": "7. How many blocks does the project consist of?",
+      "tr": "7. Proje kaç bloktan oluşuyor?"
+    },
+    "answer": {
+      "en": "The project includes a total of 37 blocks designed in different typologies.",
+      "tr": "Projede farklı tiplerde tasarlanmış toplam 37 blok bulunmaktadır."
+    }
+  },
+  {
+    "question": {
+      "en": "8. What is the difference between block types?",
+      "tr": "8. Blok tipleri arasında ne fark var?"
+    },
+    "answer": {
+      "en": "There are three block types—A, H, and T—each designed to meet different user needs in terms of apartment size, number of floors, and layout.",
+      "tr": "Projede A, H ve T olmak üzere üç farklı blok tipi yer alır. Bloklar, daire büyüklüğü, kat sayısı ve plan kurgusu açısından farklı kullanıcı ihtiyaçlarına göre tasarlanmıştır."
+    }
+  },
+  {
+    "question": {
+      "en": "9. Are there apartments with enclosed kitchens?",
+      "tr": "9. Dairelerde kapalı mutfak seçeneği var mı?"
+    },
+    "answer": {
+      "en": "Yes. Many apartment types offer enclosed kitchen options, while some feature open-plan kitchens.",
+      "tr": "Evet. Projede yer alan birçok daire tipinde kapalı mutfak seçeneği bulunmaktadır. Bazı dairelerde ise açık mutfak alternatifleri sunulmaktadır."
+    }
+  },
+  {
+    "question": {
+      "en": "10. Are garden or terrace apartments available?",
+      "tr": "10. Bahçeli veya teraslı daire seçenekleri mevcut mu?"
+    },
+    "answer": {
+      "en": "Yes. Many ground-floor apartments include private gardens or terrace areas.",
+      "tr": "Evet. Zemin katta yer alan birçok dairede tahsisli bahçe veya teras alanları bulunmaktadır."
+    }
+  },
+  {
+    "question": {
+      "en": "11. How are parking facilities planned?",
+      "tr": "11. Otopark imkânları nasıl planlandı?"
+    },
+    "answer": {
+      "en": "The project offers both open and covered parking areas, with vehicle and pedestrian circulation safely separated.",
+      "tr": "Projede açık ve kapalı otopark alanları yer almakta olup, araç ve yaya sirkülasyonu güvenli şekilde birbirinden ayrılmıştır."
+    }
+  },
+  {
+    "question": {
+      "en": "12. Is the project suitable for family living?",
+      "tr": "12. Proje aile yaşamına uygun mu?"
+    },
+    "answer": {
+      "en": "Yes. With its low-rise architecture, expansive landscaped areas, social amenities, and secure site layout, NEF Koruköy is designed to support family life.",
+      "tr": "Evet. Az katlı mimarisi, geniş peyzaj alanları, sosyal donatıları ve güvenli site kurgusuyla aile yaşamına uygun şekilde tasarlanmıştır."
+    }
+  },
+  {
+    "question": {
+      "en": "13. What makes NEF Koruköy attractive as an investment?",
+      "tr": "13. Yatırım açısından NEF Koruköy’ü öne çıkaran unsurlar nelerdir?"
+    },
+    "answer": {
+      "en": "Its location, phased and planned development, diverse apartment options, and the strong brand value of NEF make it appealing for both residential use and investment.",
+      "tr": "Konumu, planlı ve etaplar halindeki gelişimi, farklı daire tipleri ile NEF markasının güçlü bilinirliği sayesinde hem oturum hem yatırım açısından öne çıkar."
+    }
+  },
+  {
+    "question": {
+      "en": "14. Are social facilities included in the maintenance fee?",
+      "tr": "14. Sosyal alanlar aidata dahil mi?"
+    },
+    "answer": {
+      "en": "Social facilities are offered under NEF’s patented Foldhome system and are planned with a usage-based model to maintain a balanced maintenance fee structure.",
+      "tr": "Sosyal alanlar NEF’in patentli Foldhome sistemi kapsamında sunulmakta olup, kullanım esaslı bir modelle aidat dengesini koruyacak şekilde planlanmıştır."
+    }
+  },
+  {
+    "question": {
+      "en": "15. Is the project developed in phases?",
+      "tr": "15. Proje etaplar halinde mi geliştiriliyor?"
+    },
+    "answer": {
+      "en": "Yes. NEF Koruköy is planned as a phased development. It represents the third phase following the Çamlıtepe and Ormantepe phases of the NEF Çekmeköy project.",
+      "tr": "Evet. NEF Koruköy, etaplar halinde planlanmış olup NEF Çekmeköy projesinin Çamlıtepe ve Ormantepe etaplarından sonraki üçüncü etabıdır."
+    }
+  }
+],
     "brands_list": [],
     "payment_list": [
       {
@@ -366,6 +1026,13 @@
         "title_prefix_i18n": false,
         "name": "area",
         "type": "range"
+      },
+      {
+        "title_i18n": "Filter.range.floor",
+        "title_postfix_i18n": false,
+        "title_prefix_i18n": false,
+        "name": "floor",
+        "type": "range"
       }
     ],
     "checkboxes": [
@@ -392,15 +1059,15 @@
       "type": "pin",
       "position": "center",
       "title": {
-        "en": "Tree nursery",
-        "tr": "Ağaç Ormanı"
+        "en": "Tree nursery & Children's Playground",
+        "tr": "Fidanlık & Çocuk Oyun Alanı"
       },
       "iframe": "",
       "description": {
         "en": "Tree nursery & Children's Playground",
-        "tr": "Ağaç Ormanı & Çocuk Oyun Alanı"
+        "tr": "Fidanlık & Çocuk Oyun Alanı"
       },
-      "img": ""
+      "img": "/wp-content/themes/3d/assets/s3d/images/pins/tree.jpg"
       
     },
     "tree_nursery_2": {
@@ -409,15 +1076,15 @@
       "type": "pin",
       "position": "center",
       "title": {
-        "en": "Tree nursery",
-        "tr": "Ağaç Ormanı"
+        "en": "Tree nursery & Children's Playground",
+        "tr": "Fidanlık & Çocuk Oyun Alanı"
       },
       "iframe": "",
       "description": {
         "en": "Tree nursery & Children's Playground",
-        "tr": "Ağaç Ormanı & Çocuk Oyun Alanı"
+        "tr": "Fidanlık & Çocuk Oyun Alanı"
       },
-      "img": ""
+      "img": "/wp-content/themes/3d/assets/s3d/images/pins/tree-2.jpg"
       
     },
     "social": {
@@ -427,15 +1094,19 @@
       "position": "center",
       "title": {
         "en": "Social Facilities",
-        "tr": "Sosyal Tesisler"
+        "tr": "Sosyal Tesis"
       },
       "iframe": "",
       "description": {
         "en": "Social Facilities",
-        "tr": "Sosyal Tesisler"
+        "tr": "Sosyal Tesis"
       },
-      "img": ""
-      
+      "img": "/wp-content/themes/3d/assets/s3d/images/pins/social.jpg",
+      "images_for_slider": [
+        "/wp-content/themes/3d/assets/s3d/images/pins/social.jpg",
+        "/wp-content/themes/3d/assets/s3d/images/pins/social-2.jpg", 
+        "/wp-content/themes/3d/assets/s3d/images/pins/social-3.jpg"
+      ]
     },
     "retail": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
@@ -444,14 +1115,14 @@
       "position": "center",
       "title": {
         "en": "Retail Block",
-        "tr": "Perakende Bloku"
+        "tr": "Ticari Blok"
       },
       "iframe": "",
       "description": {
         "en": "Retail Block",
-        "tr": "Perakende Bloku"
+        "tr": "Ticari Blok"
       },
-      "img": ""
+      "img": "/wp-content/themes/3d/assets/s3d/images/pins/retail.jpg"
       
     },
     "lounge": {
@@ -830,7 +1501,45 @@
   "flyby_finish_dates": {
     "1-outside": "2027"
   },
-  "assotiated_flat_builds_with_flybys": {},
+  "assotiated_flat_builds_with_flybys": {
+    "2-outside": ["1"],
+    "2-inside": ["2"],
+    "3-outside": ["3"],
+    "3-inside": ["4"],
+    "4-outside": ["5"],
+    "4-inside": ["6"],
+    "5-outside": ["7"],
+    "5-inside": ["8"],
+    "6-outside": ["9"],
+    "6-inside": ["10"],
+    "7-outside": ["11"],
+    "7-inside": ["12"],
+    "8-outside": ["13"],
+    "8-inside": ["14"],
+    "9-outside": ["15"],
+    "9-inside": ["16"],
+    "10-outside": ["17"],
+    "10-inside": ["18"],
+    "11-outside": ["19"],
+    "11-inside": ["20"],
+    "12-outside": ["21"],
+    "12-inside": ["22"],
+    "13-outside": ["23"],
+    "13-inside": ["24"],
+    "14-outside": ["25"],
+    "14-inside": ["26"],
+    "15-outside": ["27"],
+    "15-inside": ["28"],
+    "16-outside": ["29"],
+    "16-inside": ["30"],
+    "17-outside": ["31"],
+    "17-inside": ["32"],
+    "18-outside": ["33"],
+    "18-inside": ["34"],
+    "19-outside": ["35"],
+    "19-inside": ["36"],
+    "20-outside": ["37"]
+  },
   "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28558.07815630491!2d29.259024!3d41.0380904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad37091fd3659%3A0x4a399c6fc00aead4!2zTmVmIMOHZWttZWvDtnkgU2F0xLHFnyBPZmlzaQ!5e1!3m2!1suk!2sua!4v1768484433154!5m2!1suk!2sua",
   "infoBoxes": {
     "general_flyby_button_titles": {
@@ -927,5 +1636,9 @@
       "twitter": "https://twitter.com/share?url=https://www.dorapuig.com/properties/1007-fisher-island-drive-miami-beach-fl-us-33109-f9207bf6dee8f35b6704cc25236b5af5",
       "mail": "mailto:?subject=Read More About Fisher Island Mansion No. 7&body=https://www.dorapuig.com/properties/1007-fisher-island-drive-miami-beach-fl-us-33109-f9207bf6dee8f35b6704cc25236b5af5"
     }
+  },
+  "panorama_view": {
+    "en": "https://apartment-tours.smartorange.com.ua/en/tour/nef-korukov-locations/",
+    "tr" : "https://apartment-tours.smartorange.com.ua/tour/nef-korukov-locations/"
   }
 }

@@ -100,7 +100,7 @@ export default class FormView {
             <path fill-rule="evenodd" clip-rule="evenodd" d="M8.00008 7.29297L8.35363 7.64652L12.5001 11.793L16.6465 7.64652L17.0001 7.29297L17.7072 8.00008L17.3536 8.35363L13.2072 12.5001L17.3536 16.6465L17.7072 17.0001L17.0001 17.7072L16.6465 17.3536L12.5001 13.2072L8.35363 17.3536L8.00008 17.7072L7.29297 17.0001L7.64652 16.6465L11.793 12.5001L7.64652 8.35363L7.29297 8.00008L8.00008 7.29297Z" fill="#1A1E21"></path>
           </svg>
                 <div class="form--popup__img">
-                    <img src="/wp-content/themes/3d/assets/s3d/images/nef-meram-logo-big.svg" alt="form-img">
+                    <img src="/wp-content/themes/3d/assets/s3d/images/logo-nef.svg" alt="form-img">
                 </div>
 
                 <div class="form--popup__intro">

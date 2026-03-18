@@ -46,10 +46,11 @@
     .s3d-flat-new__details,
     /* .FlybyController, */
     [data-hide-elements="genplan"],
-    [data-s3d2-header-flyby-dropdown],
+    
     [data-header-floor-plan-group],
     [data-type="flyby"] .MenuMobileButton.js-s3d-ctr__filter,
     // .MobileNavigationMenu .ButtonWithoutIcon.js-s3d-nav__btn[data-type="floor"],
+    .s3d2-Dropdown__content .js-s3d-nav__btn[data-type="flyby"][data-side="outside"][data-flyby="1"],
     .MobileFunctionsMenu>:nth-last-child(1),
     .MobileFunctionsMenu>:nth-last-child(2),
     .MobileFunctionsMenu .js-ctr-btn.s3d__choose--flat,
@@ -60,7 +61,7 @@
     [data-type="undefined"] .s3d-ctr__audio,
     [data-type="intro"] .s3d-ctr__audio,
     [data-type="intro"] .header__right,
-    [data-type="undefined"] .header__right,
+    
     .s3d-villa__contact-screen,
     .s3d-infoBox [data-href="null"],
     .s3d-villa__contact-screen .s3d-villa__contact,

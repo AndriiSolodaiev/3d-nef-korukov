@@ -8,6 +8,7 @@ polygon[data-type='infrastructure'] {
 
 polygon[data-type='flyby'] {
   stroke: var(--border-gray-200);
+  stroke-width: 2px;
 }
 
 polygon[data-type='flat'] {

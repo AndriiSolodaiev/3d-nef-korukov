@@ -37,6 +37,7 @@ import {
   SMARTO_TOURS_CONTAINER_SELECTOR,
   SMARTO_TOURS_V3_CONTAINER_SELECTOR,
 } from '../../../../s3d2/scripts/modules/AudioAssistant/smartoToursSelectors';
+import InstallmentCalculator from './installmentCalculator/installmentCalculator';
 
 const ErrorCallbackUpdateLocation = (i18n, hostname, keyMessage, type = '', newLocation) => err => {
   sendError(i18n, hostname, keyMessage, type, err);
@@ -476,6 +477,24 @@ class FlatModel extends EventEmitter {
       const dataFlatExplicationButton = document.querySelector('[data-flat-explication-button]');
       if (dataFlatExplicationButton) dataFlatExplicationButton.click();
     }, 3000);
+    setTimeout(() => {
+      const container = this.wrapper.querySelector('.js-installment-calculator');
+      if (!container || container.classList.contains('is-initialized')) return;
+
+      container.classList.add('is-initialized');
+
+      new InstallmentCalculator({
+        currency_rate: flat.currency_rate,
+        currency_id: flat.currency_id,
+        i18n: this.i18n,
+        container: this.wrapper.querySelector('.js-installment-calculator'),
+        price_base_m2: flat.price_m2,
+        price: flat.price,
+        area: +flat.area,
+        currency_label: this.i18n.t('currency_label'),
+        flatId: flat.id,
+      }).init();
+    }, 0);
   }
 
   radioTypeHandler(types) {
