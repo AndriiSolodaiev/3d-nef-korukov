@@ -30,7 +30,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 24,
         "rotateSpeed": [
           {
@@ -43,7 +42,8 @@
         "mouseSpeed": 0.5,
         "startDegCompass": 60
       }
-    },"2": {
+    },
+    "2": {
       "outside": {
         "id": "flyby_2_outside",
         "generalWrapId": "#js-s3d__wrapper",
@@ -73,7 +73,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -115,7 +114,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -128,7 +126,9 @@
         "mouseSpeed": 0.5,
         "startDegCompass": 60
       }
-    },"3": {"outside": {
+    },
+    "3": {
+      "outside": {
         "id": "flyby_3_outside",
         "generalWrapId": "#js-s3d__wrapper",
         "imageUrl": "images/flyby/3/",
@@ -157,7 +157,6 @@
           123
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -199,7 +198,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -243,7 +241,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -285,7 +282,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -329,7 +325,6 @@
           118
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -371,7 +366,6 @@
           119
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 20,
         "rotateSpeed": [
           {
@@ -415,7 +409,6 @@
           125
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -457,7 +450,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 20,
         "rotateSpeed": [
           {
@@ -501,7 +493,6 @@
           127
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -543,7 +534,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 20,
         "rotateSpeed": [
           {
@@ -587,7 +577,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -600,7 +589,6 @@
         "mouseSpeed": 0.5,
         "startDegCompass": 60
       }
-      
     },
     "11": {
       "inside": {
@@ -632,7 +620,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -645,7 +632,6 @@
         "mouseSpeed": 0.5,
         "startDegCompass": 60
       }
-      
     },
     "12": {
       "outside": {
@@ -677,7 +663,6 @@
           127
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
@@ -719,7 +704,6 @@
           121
         ],
         "activeSlide": 1,
-        
         "rotateSpeedDefault": 20,
         "rotateSpeed": [
           {
@@ -792,167 +776,167 @@
       }
     ],
     "faq_questions": [
-  {
-    "question": {
-      "en": "NEF KORUKÖY | PROJECT OVERVIEW",
-      "tr": "NEF KORUKÖY | PROJE ÖZETİ"
-    },
-    "answer": {
-      "en": "<p>NEF Koruköy offers a refined residential lifestyle in Çekmeköy Alemdağ, surrounded by nature and shaped by low-rise architecture that respects the character of the region. Set on a land area exceeding 77,000 m², the project stands out with its diverse apartment types designed for different lifestyles, balconies or terraces in every unit, and integrated social facilities shared seamlessly across phases.</p><br><p>Apartment options ranging from 1+1 to 4+1 feature garden, terrace, or balcony alternatives, creating a breathing space within the city. The on-site social facilities—ranging from an outdoor swimming pool to fitness areas—bring everyday amenities right next to your home. NEF Koruköy offers a balanced, peaceful, and sustainable living environment for both families and investors.</p><br><p>NEF’s patented Foldhome system extends the living space beyond the apartment itself through shared areas designed for sports, socializing, hosting guests, and daily needs. These spaces are available when needed and do not create additional maintenance costs when not in use—offering a smarter, more flexible, and more spacious way of living.</p>",
-      "tr": "<p>NEF Koruköy, Çekmeköy Alemdağ’da doğayla çevrili, az katlı mimarisiyle bölgenin yapısına saygılı bir yaşam anlayışı sunuyor. 77.000 m²’yi aşan geniş arsa alanı üzerinde konumlanan proje; farklı yaşam tarzlarına hitap eden daire tipleri, her dairede balkon veya teras kullanımı ile etaplar arası entegre sosyal alanlarıyla öne çıkıyor.</p><br><p>1+1’den 4+1’e uzanan daire seçenekleri; bahçe, teras veya balkon alternatifleriyle şehir içinde nefes alabileceğiniz bir yaşam kurgusu sunuyor. Proje içinde yer alan sosyal tesis, açık havuzdan fitness alanlarına kadar uzanan donatılarıyla günlük hayatı evinizin hemen yanına taşıyor. NEF Koruköy, hem aileler hem de yatırımcılar için dengeli, sakin ve sürdürülebilir bir yaşam vadediyor.</p><br><p>Projede yer alan NEF patentli Foldhome sistemi, evin metrekaresini yaşam alanı olarak genişleten ortak kullanımlı alanlar sunar. Spor, sosyalleşme, misafir ağırlama ve günlük ihtiyaçlara yönelik bu alanlar, ihtiyaç duyulduğunda kullanılır; kullanılmadığında ise aidat yükü yaratmaz. Böylece daha ferah, daha esnek ve akıllı bir yaşam modeli sağlar.</p>"
-    }
-  },
-  {
-    "question": {
-      "en": "1. Where is NEF Koruköy located?",
-      "tr": "1. NEF Koruköy nerede konumlanıyor?"
-    },
-    "answer": {
-      "en": "NEF Koruköy is located in Çekmeköy-Alemdağ, Istanbul, surrounded by nature and close to the Şile Connection Road, the Northern Marmara Motorway, and university districts.",
-      "tr": "NEF Koruköy, İstanbul Çekmeköy-Alemdağ’da; Şile Bağlantı Yolu ile Kuzey Marmara Otoyolu’na ve üniversite bölgelerine yakın, doğayla iç içe bir konumda yer alıyor."
-    }
-  },
-  {
-    "question": {
-      "en": "2. What types of apartments are available?",
-      "tr": "2. Projede hangi daire tipleri bulunuyor?"
-    },
-    "answer": {
-      "en": "The project offers 1+1, 2+1, 3+1, and 4+1 apartment options. Thanks to different block typologies, it caters to both small households and large families.",
-      "tr": "Projede 1+1, 2+1, 3+1 ve 4+1 daire tipleri bulunuyor. Farklı blok tipolojileri sayesinde hem küçük haneler hem de geniş aileler için alternatifler sunuluyor."
-    }
-  },
-  {
-    "question": {
-      "en": "3. Does every apartment include an outdoor space?",
-      "tr": "3. Her dairede açık alan var mı?"
-    },
-    "answer": {
-      "en": "Yes. All apartments at NEF Koruköy feature an outdoor space such as a balcony, terrace, or a private garden.",
-      "tr": "Evet. NEF Koruköy’de tüm dairelerde balkon, teras veya tahsisli bahçe gibi açık alan çözümleri bulunuyor."
-    }
-  },
-  {
-    "question": {
-      "en": "4. What social facilities are available?",
-      "tr": "4. Sosyal alanlarda neler var?"
-    },
-    "answer": {
-      "en": "The project includes an outdoor swimming pool, fitness & pilates areas, guest accommodation units, and social activity spaces. These facilities are offered as shared living areas under NEF’s patented Foldhome system and are integrated across phases.",
-      "tr": "Açık yüzme havuzu, fitness & pilates alanları, misafir konaklama birimleri ve sosyal etkinlik alanları projede yer alıyor. Bu alanlar NEF’in patentli Foldhome sistemi kapsamında etaplar arasında entegre şekilde sunuluyor."
-    }
-  },
-  {
-    "question": {
-      "en": "5. Are there commercial units within the project?",
-      "tr": "5. Projede ticari alan bulunuyor mu?"
-    },
-    "answer": {
-      "en": "Yes. The project includes commercial units that are planned separately from residential areas.",
-      "tr": "Evet. Proje içerisinde konut alanlarından ayrıştırılmış şekilde planlanan ticari üniteler de yer alıyor."
-    }
-  },
-  {
-    "question": {
-      "en": "6. How many residential units are there in the project?",
-      "tr": "6. Projede kaç konut bulunuyor?"
-    },
-    "answer": {
-      "en": "NEF Koruköy consists of a total of 997 residential units and 6 commercial units.",
-      "tr": "NEF Koruköy projesinde toplam 997 adet konut ve 6 adet ticari ünite yer almaktadır."
-    }
-  },
-  {
-    "question": {
-      "en": "7. How many blocks does the project consist of?",
-      "tr": "7. Proje kaç bloktan oluşuyor?"
-    },
-    "answer": {
-      "en": "The project includes a total of 37 blocks designed in different typologies.",
-      "tr": "Projede farklı tiplerde tasarlanmış toplam 37 blok bulunmaktadır."
-    }
-  },
-  {
-    "question": {
-      "en": "8. What is the difference between block types?",
-      "tr": "8. Blok tipleri arasında ne fark var?"
-    },
-    "answer": {
-      "en": "There are three block types—A, H, and T—each designed to meet different user needs in terms of apartment size, number of floors, and layout.",
-      "tr": "Projede A, H ve T olmak üzere üç farklı blok tipi yer alır. Bloklar, daire büyüklüğü, kat sayısı ve plan kurgusu açısından farklı kullanıcı ihtiyaçlarına göre tasarlanmıştır."
-    }
-  },
-  {
-    "question": {
-      "en": "9. Are there apartments with enclosed kitchens?",
-      "tr": "9. Dairelerde kapalı mutfak seçeneği var mı?"
-    },
-    "answer": {
-      "en": "Yes. Many apartment types offer enclosed kitchen options, while some feature open-plan kitchens.",
-      "tr": "Evet. Projede yer alan birçok daire tipinde kapalı mutfak seçeneği bulunmaktadır. Bazı dairelerde ise açık mutfak alternatifleri sunulmaktadır."
-    }
-  },
-  {
-    "question": {
-      "en": "10. Are garden or terrace apartments available?",
-      "tr": "10. Bahçeli veya teraslı daire seçenekleri mevcut mu?"
-    },
-    "answer": {
-      "en": "Yes. Many ground-floor apartments include private gardens or terrace areas.",
-      "tr": "Evet. Zemin katta yer alan birçok dairede tahsisli bahçe veya teras alanları bulunmaktadır."
-    }
-  },
-  {
-    "question": {
-      "en": "11. How are parking facilities planned?",
-      "tr": "11. Otopark imkânları nasıl planlandı?"
-    },
-    "answer": {
-      "en": "The project offers both open and covered parking areas, with vehicle and pedestrian circulation safely separated.",
-      "tr": "Projede açık ve kapalı otopark alanları yer almakta olup, araç ve yaya sirkülasyonu güvenli şekilde birbirinden ayrılmıştır."
-    }
-  },
-  {
-    "question": {
-      "en": "12. Is the project suitable for family living?",
-      "tr": "12. Proje aile yaşamına uygun mu?"
-    },
-    "answer": {
-      "en": "Yes. With its low-rise architecture, expansive landscaped areas, social amenities, and secure site layout, NEF Koruköy is designed to support family life.",
-      "tr": "Evet. Az katlı mimarisi, geniş peyzaj alanları, sosyal donatıları ve güvenli site kurgusuyla aile yaşamına uygun şekilde tasarlanmıştır."
-    }
-  },
-  {
-    "question": {
-      "en": "13. What makes NEF Koruköy attractive as an investment?",
-      "tr": "13. Yatırım açısından NEF Koruköy’ü öne çıkaran unsurlar nelerdir?"
-    },
-    "answer": {
-      "en": "Its location, phased and planned development, diverse apartment options, and the strong brand value of NEF make it appealing for both residential use and investment.",
-      "tr": "Konumu, planlı ve etaplar halindeki gelişimi, farklı daire tipleri ile NEF markasının güçlü bilinirliği sayesinde hem oturum hem yatırım açısından öne çıkar."
-    }
-  },
-  {
-    "question": {
-      "en": "14. Are social facilities included in the maintenance fee?",
-      "tr": "14. Sosyal alanlar aidata dahil mi?"
-    },
-    "answer": {
-      "en": "Social facilities are offered under NEF’s patented Foldhome system and are planned with a usage-based model to maintain a balanced maintenance fee structure.",
-      "tr": "Sosyal alanlar NEF’in patentli Foldhome sistemi kapsamında sunulmakta olup, kullanım esaslı bir modelle aidat dengesini koruyacak şekilde planlanmıştır."
-    }
-  },
-  {
-    "question": {
-      "en": "15. Is the project developed in phases?",
-      "tr": "15. Proje etaplar halinde mi geliştiriliyor?"
-    },
-    "answer": {
-      "en": "Yes. NEF Koruköy is planned as a phased development. It represents the third phase following the Çamlıtepe and Ormantepe phases of the NEF Çekmeköy project.",
-      "tr": "Evet. NEF Koruköy, etaplar halinde planlanmış olup NEF Çekmeköy projesinin Çamlıtepe ve Ormantepe etaplarından sonraki üçüncü etabıdır."
-    }
-  }
-],
+      {
+        "question": {
+          "en": "NEF KORUKÖY | PROJECT OVERVIEW",
+          "tr": "NEF KORUKÖY | PROJE ÖZETİ"
+        },
+        "answer": {
+          "en": "<p>NEF Koruköy offers a refined residential lifestyle in Çekmeköy Alemdağ, surrounded by nature and shaped by low-rise architecture that respects the character of the region. Set on a land area exceeding 77,000 m², the project stands out with its diverse apartment types designed for different lifestyles, balconies or terraces in every unit, and integrated social facilities shared seamlessly across phases.</p><br><p>Apartment options ranging from 1+1 to 4+1 feature garden, terrace, or balcony alternatives, creating a breathing space within the city. The on-site social facilities—ranging from an outdoor swimming pool to fitness areas—bring everyday amenities right next to your home. NEF Koruköy offers a balanced, peaceful, and sustainable living environment for both families and investors.</p><br><p>NEF’s patented Foldhome system extends the living space beyond the apartment itself through shared areas designed for sports, socializing, hosting guests, and daily needs. These spaces are available when needed and do not create additional maintenance costs when not in use—offering a smarter, more flexible, and more spacious way of living.</p>",
+          "tr": "<p>NEF Koruköy, Çekmeköy Alemdağ’da doğayla çevrili, az katlı mimarisiyle bölgenin yapısına saygılı bir yaşam anlayışı sunuyor. 77.000 m²’yi aşan geniş arsa alanı üzerinde konumlanan proje; farklı yaşam tarzlarına hitap eden daire tipleri, her dairede balkon veya teras kullanımı ile etaplar arası entegre sosyal alanlarıyla öne çıkıyor.</p><br><p>1+1’den 4+1’e uzanan daire seçenekleri; bahçe, teras veya balkon alternatifleriyle şehir içinde nefes alabileceğiniz bir yaşam kurgusu sunuyor. Proje içinde yer alan sosyal tesis, açık havuzdan fitness alanlarına kadar uzanan donatılarıyla günlük hayatı evinizin hemen yanına taşıyor. NEF Koruköy, hem aileler hem de yatırımcılar için dengeli, sakin ve sürdürülebilir bir yaşam vadediyor.</p><br><p>Projede yer alan NEF patentli Foldhome sistemi, evin metrekaresini yaşam alanı olarak genişleten ortak kullanımlı alanlar sunar. Spor, sosyalleşme, misafir ağırlama ve günlük ihtiyaçlara yönelik bu alanlar, ihtiyaç duyulduğunda kullanılır; kullanılmadığında ise aidat yükü yaratmaz. Böylece daha ferah, daha esnek ve akıllı bir yaşam modeli sağlar.</p>"
+        }
+      },
+      {
+        "question": {
+          "en": "1. Where is NEF Koruköy located?",
+          "tr": "1. NEF Koruköy nerede konumlanıyor?"
+        },
+        "answer": {
+          "en": "NEF Koruköy is located in Çekmeköy-Alemdağ, Istanbul, surrounded by nature and close to the Şile Connection Road, the Northern Marmara Motorway, and university districts.",
+          "tr": "NEF Koruköy, İstanbul Çekmeköy-Alemdağ’da; Şile Bağlantı Yolu ile Kuzey Marmara Otoyolu’na ve üniversite bölgelerine yakın, doğayla iç içe bir konumda yer alıyor."
+        }
+      },
+      {
+        "question": {
+          "en": "2. What types of apartments are available?",
+          "tr": "2. Projede hangi daire tipleri bulunuyor?"
+        },
+        "answer": {
+          "en": "The project offers 1+1, 2+1, 3+1, and 4+1 apartment options. Thanks to different block typologies, it caters to both small households and large families.",
+          "tr": "Projede 1+1, 2+1, 3+1 ve 4+1 daire tipleri bulunuyor. Farklı blok tipolojileri sayesinde hem küçük haneler hem de geniş aileler için alternatifler sunuluyor."
+        }
+      },
+      {
+        "question": {
+          "en": "3. Does every apartment include an outdoor space?",
+          "tr": "3. Her dairede açık alan var mı?"
+        },
+        "answer": {
+          "en": "Yes. All apartments at NEF Koruköy feature an outdoor space such as a balcony, terrace, or a private garden.",
+          "tr": "Evet. NEF Koruköy’de tüm dairelerde balkon, teras veya tahsisli bahçe gibi açık alan çözümleri bulunuyor."
+        }
+      },
+      {
+        "question": {
+          "en": "4. What social facilities are available?",
+          "tr": "4. Sosyal alanlarda neler var?"
+        },
+        "answer": {
+          "en": "The project includes an outdoor swimming pool, fitness & pilates areas, guest accommodation units, and social activity spaces. These facilities are offered as shared living areas under NEF’s patented Foldhome system and are integrated across phases.",
+          "tr": "Açık yüzme havuzu, fitness & pilates alanları, misafir konaklama birimleri ve sosyal etkinlik alanları projede yer alıyor. Bu alanlar NEF’in patentli Foldhome sistemi kapsamında etaplar arasında entegre şekilde sunuluyor."
+        }
+      },
+      {
+        "question": {
+          "en": "5. Are there commercial units within the project?",
+          "tr": "5. Projede ticari alan bulunuyor mu?"
+        },
+        "answer": {
+          "en": "Yes. The project includes commercial units that are planned separately from residential areas.",
+          "tr": "Evet. Proje içerisinde konut alanlarından ayrıştırılmış şekilde planlanan ticari üniteler de yer alıyor."
+        }
+      },
+      {
+        "question": {
+          "en": "6. How many residential units are there in the project?",
+          "tr": "6. Projede kaç konut bulunuyor?"
+        },
+        "answer": {
+          "en": "NEF Koruköy consists of a total of 997 residential units and 6 commercial units.",
+          "tr": "NEF Koruköy projesinde toplam 997 adet konut ve 6 adet ticari ünite yer almaktadır."
+        }
+      },
+      {
+        "question": {
+          "en": "7. How many blocks does the project consist of?",
+          "tr": "7. Proje kaç bloktan oluşuyor?"
+        },
+        "answer": {
+          "en": "The project includes a total of 37 blocks designed in different typologies.",
+          "tr": "Projede farklı tiplerde tasarlanmış toplam 37 blok bulunmaktadır."
+        }
+      },
+      {
+        "question": {
+          "en": "8. What is the difference between block types?",
+          "tr": "8. Blok tipleri arasında ne fark var?"
+        },
+        "answer": {
+          "en": "There are three block types—A, H, and T—each designed to meet different user needs in terms of apartment size, number of floors, and layout.",
+          "tr": "Projede A, H ve T olmak üzere üç farklı blok tipi yer alır. Bloklar, daire büyüklüğü, kat sayısı ve plan kurgusu açısından farklı kullanıcı ihtiyaçlarına göre tasarlanmıştır."
+        }
+      },
+      {
+        "question": {
+          "en": "9. Are there apartments with enclosed kitchens?",
+          "tr": "9. Dairelerde kapalı mutfak seçeneği var mı?"
+        },
+        "answer": {
+          "en": "Yes. Many apartment types offer enclosed kitchen options, while some feature open-plan kitchens.",
+          "tr": "Evet. Projede yer alan birçok daire tipinde kapalı mutfak seçeneği bulunmaktadır. Bazı dairelerde ise açık mutfak alternatifleri sunulmaktadır."
+        }
+      },
+      {
+        "question": {
+          "en": "10. Are garden or terrace apartments available?",
+          "tr": "10. Bahçeli veya teraslı daire seçenekleri mevcut mu?"
+        },
+        "answer": {
+          "en": "Yes. Many ground-floor apartments include private gardens or terrace areas.",
+          "tr": "Evet. Zemin katta yer alan birçok dairede tahsisli bahçe veya teras alanları bulunmaktadır."
+        }
+      },
+      {
+        "question": {
+          "en": "11. How are parking facilities planned?",
+          "tr": "11. Otopark imkânları nasıl planlandı?"
+        },
+        "answer": {
+          "en": "The project offers both open and covered parking areas, with vehicle and pedestrian circulation safely separated.",
+          "tr": "Projede açık ve kapalı otopark alanları yer almakta olup, araç ve yaya sirkülasyonu güvenli şekilde birbirinden ayrılmıştır."
+        }
+      },
+      {
+        "question": {
+          "en": "12. Is the project suitable for family living?",
+          "tr": "12. Proje aile yaşamına uygun mu?"
+        },
+        "answer": {
+          "en": "Yes. With its low-rise architecture, expansive landscaped areas, social amenities, and secure site layout, NEF Koruköy is designed to support family life.",
+          "tr": "Evet. Az katlı mimarisi, geniş peyzaj alanları, sosyal donatıları ve güvenli site kurgusuyla aile yaşamına uygun şekilde tasarlanmıştır."
+        }
+      },
+      {
+        "question": {
+          "en": "13. What makes NEF Koruköy attractive as an investment?",
+          "tr": "13. Yatırım açısından NEF Koruköy’ü öne çıkaran unsurlar nelerdir?"
+        },
+        "answer": {
+          "en": "Its location, phased and planned development, diverse apartment options, and the strong brand value of NEF make it appealing for both residential use and investment.",
+          "tr": "Konumu, planlı ve etaplar halindeki gelişimi, farklı daire tipleri ile NEF markasının güçlü bilinirliği sayesinde hem oturum hem yatırım açısından öne çıkar."
+        }
+      },
+      {
+        "question": {
+          "en": "14. Are social facilities included in the maintenance fee?",
+          "tr": "14. Sosyal alanlar aidata dahil mi?"
+        },
+        "answer": {
+          "en": "Social facilities are offered under NEF’s patented Foldhome system and are planned with a usage-based model to maintain a balanced maintenance fee structure.",
+          "tr": "Sosyal alanlar NEF’in patentli Foldhome sistemi kapsamında sunulmakta olup, kullanım esaslı bir modelle aidat dengesini koruyacak şekilde planlanmıştır."
+        }
+      },
+      {
+        "question": {
+          "en": "15. Is the project developed in phases?",
+          "tr": "15. Proje etaplar halinde mi geliştiriliyor?"
+        },
+        "answer": {
+          "en": "Yes. NEF Koruköy is planned as a phased development. It represents the third phase following the Çamlıtepe and Ormantepe phases of the NEF Çekmeköy project.",
+          "tr": "Evet. NEF Koruköy, etaplar halinde planlanmış olup NEF Çekmeköy projesinin Çamlıtepe ve Ormantepe etaplarından sonraki üçüncü etabıdır."
+        }
+      }
+    ],
     "brands_list": [],
     "payment_list": [
       {
@@ -1068,7 +1052,6 @@
         "tr": "Fidanlık & Çocuk Oyun Alanı"
       },
       "img": "/wp-content/themes/3d/assets/s3d/images/pins/tree.jpg"
-      
     },
     "tree_nursery_2": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
@@ -1085,7 +1068,6 @@
         "tr": "Fidanlık & Çocuk Oyun Alanı"
       },
       "img": "/wp-content/themes/3d/assets/s3d/images/pins/tree-2.jpg"
-      
     },
     "social": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
@@ -1104,7 +1086,7 @@
       "img": "/wp-content/themes/3d/assets/s3d/images/pins/social.jpg",
       "images_for_slider": [
         "/wp-content/themes/3d/assets/s3d/images/pins/social.jpg",
-        "/wp-content/themes/3d/assets/s3d/images/pins/social-2.jpg", 
+        "/wp-content/themes/3d/assets/s3d/images/pins/social-2.jpg",
         "/wp-content/themes/3d/assets/s3d/images/pins/social-3.jpg"
       ]
     },
@@ -1123,7 +1105,6 @@
         "tr": "Ticari Blok"
       },
       "img": "/wp-content/themes/3d/assets/s3d/images/pins/retail.jpg"
-      
     },
     "lounge": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
@@ -1502,43 +1483,117 @@
     "1-outside": "2027"
   },
   "assotiated_flat_builds_with_flybys": {
-    "2-outside": ["1"],
-    "2-inside": ["2"],
-    "3-outside": ["3"],
-    "3-inside": ["4"],
-    "4-outside": ["5"],
-    "4-inside": ["6"],
-    "5-outside": ["7"],
-    "5-inside": ["8"],
-    "6-outside": ["9"],
-    "6-inside": ["10"],
-    "7-outside": ["11"],
-    "7-inside": ["12"],
-    "8-outside": ["13"],
-    "8-inside": ["14"],
-    "9-outside": ["15"],
-    "9-inside": ["16"],
-    "10-outside": ["17"],
-    "10-inside": ["18"],
-    "11-outside": ["19"],
-    "11-inside": ["20"],
-    "12-outside": ["21"],
-    "12-inside": ["22"],
-    "13-outside": ["23"],
-    "13-inside": ["24"],
-    "14-outside": ["25"],
-    "14-inside": ["26"],
-    "15-outside": ["27"],
-    "15-inside": ["28"],
-    "16-outside": ["29"],
-    "16-inside": ["30"],
-    "17-outside": ["31"],
-    "17-inside": ["32"],
-    "18-outside": ["33"],
-    "18-inside": ["34"],
-    "19-outside": ["35"],
-    "19-inside": ["36"],
-    "20-outside": ["37"]
+    "2-outside": [
+      "1"
+    ],
+    "2-inside": [
+      "2"
+    ],
+    "3-outside": [
+      "3"
+    ],
+    "3-inside": [
+      "4"
+    ],
+    "4-outside": [
+      "5"
+    ],
+    "4-inside": [
+      "6"
+    ],
+    "5-outside": [
+      "7"
+    ],
+    "5-inside": [
+      "8"
+    ],
+    "6-outside": [
+      "9"
+    ],
+    "6-inside": [
+      "10"
+    ],
+    "7-outside": [
+      "11"
+    ],
+    "7-inside": [
+      "12"
+    ],
+    "8-outside": [
+      "13"
+    ],
+    "8-inside": [
+      "14"
+    ],
+    "9-outside": [
+      "15"
+    ],
+    "9-inside": [
+      "16"
+    ],
+    "10-outside": [
+      "17"
+    ],
+    "10-inside": [
+      "18"
+    ],
+    "11-outside": [
+      "19"
+    ],
+    "11-inside": [
+      "20"
+    ],
+    "12-outside": [
+      "21"
+    ],
+    "12-inside": [
+      "22"
+    ],
+    "13-outside": [
+      "23"
+    ],
+    "13-inside": [
+      "24"
+    ],
+    "14-outside": [
+      "25"
+    ],
+    "14-inside": [
+      "26"
+    ],
+    "15-outside": [
+      "27"
+    ],
+    "15-inside": [
+      "28"
+    ],
+    "16-outside": [
+      "29"
+    ],
+    "16-inside": [
+      "30"
+    ],
+    "17-outside": [
+      "31"
+    ],
+    "17-inside": [
+      "32"
+    ],
+    "18-outside": [
+      "33"
+    ],
+    "18-inside": [
+      "34"
+    ],
+    "19-outside": [
+      "35"
+    ],
+    "19-inside": [
+      "36"
+    ],
+    "20-outside": [
+      "37"
+    ]
   },
   "project_google_map_location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28558.07815630491!2d29.259024!3d41.0380904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad37091fd3659%3A0x4a399c6fc00aead4!2zTmVmIMOHZWttZWvDtnkgU2F0xLHFnyBPZmlzaQ!5e1!3m2!1suk!2sua!4v1768484433154!5m2!1suk!2sua",
   "infoBoxes": {
@@ -1639,6 +1694,6 @@
   },
   "panorama_view": {
     "en": "https://apartment-tours.smartorange.com.ua/en/tour/nef-korukov-locations/",
-    "tr" : "https://apartment-tours.smartorange.com.ua/tour/nef-korukov-locations/"
+    "tr": "https://apartment-tours.smartorange.com.ua/tour/nef-korukov-locations/"
   }
 }

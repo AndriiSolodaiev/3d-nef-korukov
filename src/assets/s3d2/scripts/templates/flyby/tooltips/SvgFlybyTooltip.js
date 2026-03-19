@@ -41,7 +41,7 @@ export default function SvgFlybyTooltip({
 
   return `
     <foreignObject class="s3d2-svg-flyby-tooltip"  x="${x}" y="${y}"  width="250" height="160" data-build-flat-count-element data-id="${id}">
-      <div xmlns="http://www.w3.org/1999/xhtml" class="SvgFlybyTooltip">
+      <!--<div xmlns="http://www.w3.org/1999/xhtml" class="SvgFlybyTooltip">
 
           <div class="SvgFlybyTooltip__title">${title}</div>
           <div class="SvgFlybyTooltip__bottom">
@@ -60,7 +60,7 @@ export default function SvgFlybyTooltip({
             <div class="SvgFlybyTooltip__right-item">${numberWithCommas(rightTitle2)}</div>
           </div>
           
-      </div>
+      </div>-->
       ${
         flatsFilteredCountInFlyby === 0 || flatsFilteredCountInFlyby === totalFlatsInFlyby
           ? ''
