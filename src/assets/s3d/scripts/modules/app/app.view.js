@@ -51,7 +51,7 @@ class AppView extends EventEmitter {
     model.on('changeBlockActive', name => {
       this.changeBlockIndex(name);
       this.changeActiveButton(name);
-      this.changeTitle(name);
+      // this.changeTitle(name);
     });
     model.on('changeClass', a => {
       this.changeClass(a);
@@ -269,18 +269,18 @@ class AppView extends EventEmitter {
     }
   }
 
-  changeTitle(name) {
-    const headerTitle = document.querySelector('.js-s3d-ctr__option__text');
-    if (!headerTitle) return;
-    const text = this._model.i18n.t(`title.${name}`);
+  // changeTitle(name) {
+  //   const headerTitle = document.querySelector('.js-s3d-ctr__option__text');
+  //   if (!headerTitle) return;
+  //   const text = this._model.i18n.t(`title.${name}`);
 
-    !name.includes('genplan')
-      ? (headerTitle.innerHTML = text)
-      : (headerTitle.innerHTML = this._model.i18n.t('title.genplan'));
-    name === 'flat' || name === 'floor'
-      ? headerTitle.classList.add('not-active')
-      : headerTitle.classList.remove('not-active');
-  }
+  //   !name.includes('genplan')
+  //     ? (headerTitle.innerHTML = text)
+  //     : (headerTitle.innerHTML = this._model.i18n.t('title.genplan'));
+  //   name === 'flat' || name === 'floor'
+  //     ? headerTitle.classList.add('not-active')
+  //     : headerTitle.classList.remove('not-active');
+  // }
 
   changeClass(conf) {
     const status = conf.flag ? 'add' : 'remove';

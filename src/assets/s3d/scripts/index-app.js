@@ -44,6 +44,7 @@ import { deviceType, primaryInput } from 'detect-it';
 import { detect } from 'detect-browser';
 import FlybyController from '../../s3d2/scripts/templates/FlybyController';
 import { initMobileFlybyListeners } from '../../s3d2/scripts/templates/s3d2_MobileFlybyController';
+import DevelopmentNotificationFactory from './modules/templates/header/development-mode';
 
 const browser = detect();
 
@@ -174,7 +175,13 @@ const createHtml = (i18n, config) => {
   console.log(config);
   switchCreationFunction(config);
 };
-
+document.addEventListener('DOMContentLoaded', e => {
+  setTimeout(() => {
+    DevelopmentNotificationFactory.showNotification();
+    DevelopmentNotificationFactory.addNotificationClass();
+    DevelopmentNotificationFactory.removeNotificationClass();
+  }, 7500);
+});
 async function init() {
   let Config = defaultConfig;
   try {

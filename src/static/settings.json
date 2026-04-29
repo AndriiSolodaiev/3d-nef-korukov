@@ -588,9 +588,259 @@
         "frameWithNorthDirection": 100,
         "mouseSpeed": 0.5,
         "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_8_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/14/",
+        "sd_imageUrl": "images/flyby/14/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 163
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          44,
+          84,
+          124
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "9": {
+      "outside": {
+        "id": "flyby_9_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/15/",
+        "sd_imageUrl": "images/flyby/15/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_9_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/16/",
+        "sd_imageUrl": "images/flyby/16/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "10": {
+      "outside": {
+        "id": "flyby_10_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/17/",
+        "sd_imageUrl": "images/flyby/17/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_10_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/18/",
+        "sd_imageUrl": "images/flyby/18/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
       }
     },
     "11": {
+      "outside": {
+        "id": "flyby_11_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/19/",
+        "sd_imageUrl": "images/flyby/19/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
       "inside": {
         "id": "flyby_11_inside",
         "generalWrapId": "#js-s3d__wrapper",
@@ -660,7 +910,7 @@
           1,
           41,
           81,
-          127
+          121
         ],
         "activeSlide": 1,
         "rotateSpeedDefault": 15,
@@ -691,6 +941,49 @@
         "show_flat_polygons_tooltip_key": "area",
         "numberSlide": {
           "min": 0,
+          "max": 163
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          84,
+          124
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 20,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 20
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "13": {
+      "outside": {
+        "id": "flyby_13_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/23/",
+        "sd_imageUrl": "images/flyby/23/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
           "max": 160
         },
         "verticalAlig_faq": "top || center || bottom",
@@ -704,12 +997,600 @@
           121
         ],
         "activeSlide": 1,
-        "rotateSpeedDefault": 20,
+        "rotateSpeedDefault": 15,
         "rotateSpeed": [
           {
             "min": 79,
             "max": 100,
-            "ms": 20
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_13_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/24/",
+        "sd_imageUrl": "images/flyby/24/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "14": {
+      "outside": {
+        "id": "flyby_14_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/25/",
+        "sd_imageUrl": "images/flyby/25/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_14_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/26/",
+        "sd_imageUrl": "images/flyby/26/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "15": {
+      "outside": {
+        "id": "flyby_15_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/27/",
+        "sd_imageUrl": "images/flyby/27/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_15_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/28/",
+        "sd_imageUrl": "images/flyby/28/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "16": {
+      "outside": {
+        "id": "flyby_16_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/29/",
+        "sd_imageUrl": "images/flyby/29/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_16_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/30/",
+        "sd_imageUrl": "images/flyby/30/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "17": {
+      "outside": {
+        "id": "flyby_17_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/31/",
+        "sd_imageUrl": "images/flyby/31/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_17_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/32/",
+        "sd_imageUrl": "images/flyby/32/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "18": {
+      "outside": {
+        "id": "flyby_18_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/33/",
+        "sd_imageUrl": "images/flyby/33/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_18_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/34/",
+        "sd_imageUrl": "images/flyby/34/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "19": {
+      "outside": {
+        "id": "flyby_19_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/35/",
+        "sd_imageUrl": "images/flyby/35/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      },
+      "inside": {
+        "id": "flyby_19_inside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/36/",
+        "sd_imageUrl": "images/flyby/36/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 165
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          126
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
+          }
+        ],
+        "frameWithNorthDirection": 100,
+        "mouseSpeed": 0.5,
+        "startDegCompass": 60
+      }
+    },
+    "20": {
+      "outside": {
+        "id": "flyby_20_outside",
+        "generalWrapId": "#js-s3d__wrapper",
+        "imageUrl": "images/flyby/37/",
+        "sd_imageUrl": "images/flyby/37/",
+        "enableParalax": false,
+        "enableClouds": false,
+        "image_format": "jpg",
+        "defaultTheme": "light",
+        "class": "js-s3d__wrapper",
+        "SLIDER_MOBILE_FINGER_SWIPE": false,
+        "DISABLE_MOBILE_ZOOM": false,
+        "show_flat_polygons_tooltip": true,
+        "show_flat_polygons_tooltip_key": "area",
+        "numberSlide": {
+          "min": 0,
+          "max": 160
+        },
+        "verticalAlig_faq": "top || center || bottom",
+        "verticalAlign": "top",
+        "horizontalAlign_faq": "left || center || right",
+        "horizontalAlign": "center",
+        "controlPoint": [
+          1,
+          41,
+          81,
+          121
+        ],
+        "activeSlide": 1,
+        "rotateSpeedDefault": 15,
+        "rotateSpeed": [
+          {
+            "min": 79,
+            "max": 100,
+            "ms": 15
           }
         ],
         "frameWithNorthDirection": 100,
@@ -1037,6 +1918,23 @@
     ]
   },
   "pinsInfo": {
+    "panorama": {
+      "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
+      "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
+      "type": "iframe",
+      "position": "center",
+      "title": {
+        "en": "Panorama",
+        "uk": "Panorama"
+      },
+      "iframe": "https://apartment-tours.smartorange.com.ua/tour/nef-korukov-locations/",
+      "description": {
+        "en": "Panorama",
+        "uk": "Panorama"
+      },
+      "img": "/wp-content/themes/3d/assets/s3d/images/panorama.jpg",
+      "filter_type": "arrow"
+    },
     "tree_nursery": {
       "FAQ": "Посилання 'iframe' автоматично буде розпізнавати в  якому тегу в попапі виводити інформацію, якщо це зображення - img, все інше - iframe",
       "FAQ_2": "Якщо вказати тип text,  за координатами полігона буде виводитися текст, полігон має мати тільки дві точки",
@@ -1693,7 +2591,7 @@
     }
   },
   "panorama_view": {
-    "en": "https://apartment-tours.smartorange.com.ua/en/tour/nef-korukov-locations/",
+    "en": "https://apartment-tours.smartorange.com.ua/tour/nef-korukov-locations/",
     "tr": "https://apartment-tours.smartorange.com.ua/tour/nef-korukov-locations/"
   }
 }

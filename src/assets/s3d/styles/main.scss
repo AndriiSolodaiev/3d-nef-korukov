@@ -50,6 +50,6 @@
 @use 'components/common/checkbox';
 @use 'components/common/button-desktop-text-mobile-icon';
 @use '../scripts/modules/form/toster/toster';
-
+@use 'pages/development-mode';
 @import './pages/flat/$brandsList.scss';
 @import './pages/flat/$s3d2_brandsList.scss';

@@ -78,7 +78,7 @@ function Plannings(i18n) {
         ${showOnMobile(`
               <div class="s3d-pl__mobile-results js-s3d-pl__found">
                 <div class="text-style-3-d-fonts-1920-h-2-regular text-gray-900">
-                  Selection by parameters
+                  ${i18n.t('Filter.title')}
                 </div>
                 <div class="text-style-3-d-fonts-1920-body-regular text-gray-700">
                   ${i18n.t('Plannings.found')}&nbsp; 
