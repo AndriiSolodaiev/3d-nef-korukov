@@ -1,7 +1,7 @@
 .s3d-flat-new__apartments-list {
   position: relative;
   background-color: transparent;
-  padding: var(--space-32) var(--space-6) var(--space-6) var(--space-6);
+  padding: var(--space-32) var(--space-6) 0 var(--space-6);
   // padding: var(--space-32) var(--space-10) 0 var(--space-10);
   // background: url('/wp-content/themes/3d/assets/s3d/images/background-inside.jpg');
   // padding-top: var(--space-16);
@@ -11,6 +11,9 @@
   //   padding-left: var(--space-5);
   //   padding-right: var(--space-5);
   // }
+  @media screen and (max-width: 600px) {
+    padding: var(--space-20) var(--space-5) 0 var(--space-5);
+  }
   &-wrapper {
     margin-top: var(--space-16);
     @media screen and (max-width: 600px) {

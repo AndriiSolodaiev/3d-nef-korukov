@@ -1,4 +1,4 @@
-import { gsap, Power1, TimelineMax } from 'gsap';
+import { gsap } from 'gsap';
 import Card from '../templates/card/card';
 import xor from 'lodash/xor';
 import EventEmitter from '../eventEmitter/EventEmitter';
@@ -16,9 +16,10 @@ class FavouritesModel extends EventEmitter {
     this.updateFsm = config.updateFsm;
     this.history = config.history;
     this.fsm = config.fsm;
-    this.animationSpeed = 1600;
+    this.animationSpeed = 650;
     this.i18n = i18n;
     this.favouritesIds$ = config.favouritesIds$;
+    this.previousFavouritesCount = this.favouritesIds$.value.length;
     this.updateFavouritesBlock = this.updateFavouritesBlock.bind(this);
     this.isShowOnlyPropertiesDifference = new BehaviorSubject(false);
     this.propertiesToShow = [
@@ -123,7 +124,17 @@ class FavouritesModel extends EventEmitter {
     this.favouritesIds$.subscribe(favourites => {
       this.emit('updateCountFavourites', favourites.length);
       this.emit('updateFavouritesInput', favourites);
-      this.updateHistory({ favourites });
+
+      const isClearedFromNonEmpty =
+        this.previousFavouritesCount > 0 && favourites.length === 0;
+
+      if (isClearedFromNonEmpty) {
+        this.history.deleteSearchParam('favourites');
+      } else if (favourites.length > 0) {
+        this.updateHistory({ favourites });
+      }
+
+      this.previousFavouritesCount = favourites.length;
     });
 
     const favouritesStore = this.getFavourites();
@@ -230,12 +241,10 @@ class FavouritesModel extends EventEmitter {
     if (isAnimate) {
       this.moveToFavouriteEffectHandler(element, !updatedFavourites.includes(id));
     }
-    setTimeout(() => {
-      this.favouritesIds$.next(updatedFavourites);
-      if (updatedFavourites.length === 0 && this.fsm.state === 'favourites') {
-        window.history.back();
-      }
-    }, this.animationSpeed);
+    this.favouritesIds$.next(updatedFavourites);
+    if (updatedFavourites.length === 0 && this.fsm.state === 'favourites') {
+      this.history.deleteSearchParam('favourites');
+    }
   }
 
   // animation transition heart from/to for click
@@ -276,37 +285,129 @@ class FavouritesModel extends EventEmitter {
   }
 
   animateFavouriteElement(destination, element, distance, reverse) {
-    if (gsap === undefined) return;
-    const curElem = element.cloneNode(true);
-    curElem.classList.add('s3d-favourite__pulse');
-    const animatingElParams = element.getBoundingClientRect();
-    document.querySelector('.js-s3d__slideModule').insertAdjacentElement('beforeend', curElem);
-    curElem.style.cssText += `
-			width:${animatingElParams.width}px;
-			height:${animatingElParams.height}px;
-			left:${animatingElParams.left}px;
-			top:${animatingElParams.top}px;
-			`;
+    if (gsap === undefined || !destination || !element) return;
 
-    const speed = (this.animationSpeed / 1000) * (this.getSpeedAnimateHeart(distance) / 850);
-    const tl = new TimelineMax({
-      delay: 0,
-      repeat: 0,
-      paused: true,
-      onComplete: () => {
-        curElem.remove();
-      },
-    });
-    if (reverse === true) {
-      tl.from(curElem, { y: distance.y, duration: speed, ease: Power1.easeInOut });
-      tl.from(curElem, { x: distance.x, duration: speed, ease: Power1.easeInOut }, `-=${speed}`);
-    } else {
-      tl.to(curElem, { y: distance.y, duration: speed, ease: Power1.easeInOut });
-      tl.to(curElem, { x: distance.x, duration: speed, ease: Power1.easeInOut }, `-=${speed}`);
+    const host = document.querySelector('.js-s3d__slideModule');
+    if (!host) return;
+
+    const sourceRect = element.getBoundingClientRect();
+    const destRect = destination.getBoundingClientRect();
+    const sourceCenter = {
+      x: sourceRect.left + sourceRect.width / 2,
+      y: sourceRect.top + sourceRect.height / 2,
+    };
+    const destCenter = {
+      x: destRect.left + destRect.width / 2,
+      y: destRect.top + destRect.height / 2,
+    };
+
+    const startPoint = reverse ? destCenter : sourceCenter;
+    const endPoint = reverse ? sourceCenter : destCenter;
+    const travelDistance = {
+      x: endPoint.x - startPoint.x,
+      y: endPoint.y - startPoint.y,
+    };
+
+    const distanceWeight = Math.max(0.85, this.getSpeedAnimateHeart(travelDistance) / 800);
+    const travelDuration = Math.min(1.25, (this.animationSpeed / 1000) * distanceWeight);
+    const shatterDuration = 0.09;
+    const particleCount = 10;
+    const shardShapes = [
+      'polygon(0 0, 70% 8%, 55% 52%, 8% 72%)',
+      'polygon(22% 0, 100% 12%, 88% 70%, 30% 62%)',
+      'polygon(0 30%, 52% 0, 84% 42%, 34% 96%)',
+      'polygon(8% 14%, 74% 0, 100% 54%, 18% 88%)',
+      'polygon(0 12%, 48% 0, 100% 24%, 42% 100%)',
+      'polygon(12% 0, 88% 10%, 72% 96%, 0 70%)',
+    ];
+    const particles = [];
+
+    for (let i = 0; i < particleCount; i += 1) {
+      const particle = element.cloneNode(true);
+      particle.classList.add('s3d-favourite__pulse');
+      particle.style.animation = 'none';
+      particle.style.pointerEvents = 'none';
+      const particleSizeFactor = 0.44 + Math.random() * 0.32;
+      const particleWidth = Math.max(10, sourceRect.width * particleSizeFactor);
+      const particleHeight = Math.max(10, sourceRect.height * particleSizeFactor);
+      particle.style.width = `${particleWidth}px`;
+      particle.style.height = `${particleHeight}px`;
+      particle.style.left = `${startPoint.x - particleWidth / 2}px`;
+      particle.style.top = `${startPoint.y - particleHeight / 2}px`;
+      particle.style.clipPath = shardShapes[i % shardShapes.length];
+      particle.style.webkitClipPath = shardShapes[i % shardShapes.length];
+      particle.style.filter = 'drop-shadow(0 1px 2px rgba(0,0,0,0.15))';
+      particle.style.zIndex = '2002';
+      host.insertAdjacentElement('beforeend', particle);
+      particles.push(particle);
     }
-    tl.set(curElem, { x: 0, y: 0 });
-    tl.set(curElem, { clearProps: 'all' });
-    tl.play();
+
+    const pulseTarget = reverse ? element : destination;
+    gsap.to(pulseTarget, {
+      duration: 0.14,
+      scale: reverse ? 0.84 : 1.18,
+      ease: 'power4.out',
+      yoyo: true,
+      repeat: 1,
+      overwrite: true,
+    });
+
+    particles.forEach((particle, index) => {
+      const spread = 18 + Math.random() * 20;
+      const angle = (Math.PI * 2 * index) / particleCount + Math.random() * 0.35;
+      const burstX = Math.cos(angle) * spread;
+      const burstY = Math.sin(angle) * spread - 6;
+
+      const endJitter = reverse ? 4 : 10;
+      const finalX = travelDistance.x + (Math.random() - 0.5) * endJitter;
+      const finalY = travelDistance.y + (Math.random() - 0.5) * endJitter;
+
+      const initialScale = reverse ? 0.28 + Math.random() * 0.2 : 0.5 + Math.random() * 0.25;
+      const midScale = reverse ? 0.62 + Math.random() * 0.2 : 0.42 + Math.random() * 0.2;
+      const finalScale = reverse ? 0.72 : 0.2;
+      const burstRotate = (Math.random() - 0.5) * 240;
+
+      const tl = gsap.timeline({
+        delay: index * 0.012,
+        onComplete: () => particle.remove(),
+      });
+
+      tl.set(particle, {
+        x: 0,
+        y: 0,
+        opacity: reverse ? 0.45 : 1,
+        scale: initialScale,
+        rotate: (Math.random() - 0.5) * 45,
+        transformOrigin: '50% 50%',
+      });
+
+      tl.to(particle, {
+        scale: initialScale * (reverse ? 1.22 : 1.34),
+        opacity: reverse ? 0.62 : 1,
+        duration: 0.04,
+        ease: 'power4.out',
+      });
+
+      tl.to(particle, {
+        x: burstX,
+        y: burstY,
+        opacity: reverse ? 0.88 : 0.98,
+        scale: midScale,
+        rotate: burstRotate,
+        duration: shatterDuration,
+        ease: 'expo.out',
+      });
+
+      tl.to(particle, {
+        x: finalX,
+        y: finalY,
+        opacity: reverse ? 1 : 0.2,
+        scale: finalScale,
+        rotate: 0,
+        duration: travelDuration,
+        ease: reverse ? 'power3.out' : 'power3.inOut',
+      });
+    });
   }
 }
 

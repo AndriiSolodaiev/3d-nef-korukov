@@ -25,7 +25,8 @@
     border-radius: var(--space-2, 8px);
     border: 1px solid var(--s3d2-color-surface-gray-900-transparent-10);
     background: var(--s3d2-color-surface-gray-200-transparent-80);
-    backdrop-filter: blur(20px);
+    // backdrop-filter: blur(20px);
+
     height: 40px;
     display: flex;
     padding: 10px;

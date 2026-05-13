@@ -11,6 +11,9 @@
       gap: var(--space-5);
       padding: 0 var(--space-3);
     }
+    @media screen and (max-width: 600px) {
+    margin-top: var(--space-20);
+  }
   }
 
   &__flat-explication-screen-wrap {
@@ -462,3 +465,9 @@
     }
   }
 }
+
+.mob-v {
+  display: none;
+  @media screen and (max-width: 1024px) {
+    display: block;
+}}

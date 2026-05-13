@@ -294,6 +294,7 @@
     "gallery": "Galeri",
     "virtual_tour": "ODA TURU",
     "floor_plan": "KAT SEÇİCİ",
+    "layout": "Düzen",
     "other_flats_title": "Bu konutun diğer katlardaki seçenekleri",
     "doc_title": "Belgeler",
     "financial_terms_title": "finansman koşulları",
@@ -445,11 +446,11 @@
     "brands_list_title": "SIKÇA SORULAN SORULAR",
     "brands_list_description": "Welcome evleri, klasik ve güvenilir yerinde inşaat yöntemiyle yapılır. Evlerimiz 'modüler' veya prefabrik değildir; sahada inşa edilirler. Aşağıda Katona bileşenlerine dair genel bir genel bakış bulabilirsiniz.",
     "payment_title": "NEF BÜNYESİNDE FAİZSİZ ÖDEME PLANI",
-    "payment_description": "Ödeme planınızı satış uzmanlarımızla kişiselleştirebilirsiniz.",
+    "payment_description": "Ödeme planınızı satış uzmanlarımızla kişiselleştirebilirsiniz",
     "payment_end_text": "Ödeme planını ofisteki yöneticiyle görüşerek değiştirebilirsiniz.",
-    "payment_info": "Bilgi",
+    "payment_info": "Ödeme planını bütçenize ve zamanlamanıza göre uyarlamak için satış ekibimizden destek alın.",
     "panorama": "Panorama",
-    "panorama_info": "Farklı katlardan ve yönlerden gerçek 360° görünümleri keşfedin.",
+    "panorama_info": "Kat ve yön değiştirerek doğal ışığı, mahremiyeti ve çevreyi rezervasyon öncesi değerlendirebilirsiniz.",
     "panorama_description": "Farklı katlardan ve yönlerden gerçek 360° görünümleri keşfedin."
   },
   "Floor": {

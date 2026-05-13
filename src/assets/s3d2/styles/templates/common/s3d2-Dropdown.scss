@@ -257,3 +257,18 @@
     fill: var(--s3d2-color-text-gray-200);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .s3d2-Dropdown.s3d2-Dropdown--force-close {
+    .s3d2-Dropdown__content {
+      opacity: 0 !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+      transform: translate(100%, 0) !important;
+    }
+
+    .s3d2-Dropdown__title > svg {
+      transform: rotate(0deg) !important;
+    }
+  }
+}

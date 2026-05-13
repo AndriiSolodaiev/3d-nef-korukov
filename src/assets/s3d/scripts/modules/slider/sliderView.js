@@ -295,20 +295,7 @@ class SliderView extends EventEmitter {
             }
           }
 
-          const $tooltip = isMobile()
-            ? MobileSvgFlybyTooltip({
-                title: this._model.i18n.t(`ctr.nav.tooltip_${flyby}`),
-                x,
-                y,
-                flyby,
-                side,
-                flatsFilteredCountInFlybyPostfix: this._model.i18n.t('ctr.nav.flat_shot'),
-                flatsFilteredCountInFlyby,
-                totalFlatsInFlyby,
-                i18n: this._model.i18n,
-                finishDate: $finishDate,
-              })
-            : SvgFlybyTooltip({
+          const $tooltip = SvgFlybyTooltip({
                 i18n: this._model.i18n,
                 title: this._model.i18n.t(`ctr.nav.tooltip_${flyby}`),
                 x,

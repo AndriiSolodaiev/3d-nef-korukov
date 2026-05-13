@@ -603,6 +603,8 @@ sup {
   z-index: 120;
   border-radius: 50%;
   background-color: var(--icon-gray-200);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border: none;
   width: 56px;
   height: 56px;

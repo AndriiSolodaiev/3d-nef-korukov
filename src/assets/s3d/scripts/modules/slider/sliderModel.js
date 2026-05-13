@@ -52,6 +52,7 @@ class SliderModel extends EventEmitter {
     this.linksSvg = config.linksSvg;
     this.structureFlats = config.structureFlats;
     this.infoBox = config.infoBox;
+    this.modalManager = config.modalManager;
     this.typeSelectedFlyby$ = config.typeSelectedFlyby$;
     this.currentFilteredFlatIds$ = config.currentFilteredFlatIds$;
     this.currentFilteredFloorsData$ = config.currentFilteredFloorsData$;
@@ -314,7 +315,47 @@ class SliderModel extends EventEmitter {
     this.infoBox.changeState('hover', config);
   }
 
+  isAnyPopupOpen() {
+    if (document.querySelector('.menu-wrap.active')) {
+      return true;
+    }
+
+    if (document.querySelector('.vr-popup')) {
+      return true;
+    }
+
+    if (document.querySelector('.mfp-wrap.mfp-ready, .mfp-bg.mfp-ready')) {
+      return true;
+    }
+
+    if (!this.modalManager || !this.modalManager.getModals) {
+      return false;
+    }
+
+    return this.modalManager.getModals().some(modal => {
+      if (!modal || !modal.id) {
+        return false;
+      }
+
+      const modalElement = document.getElementById(modal.id);
+      if (!modalElement) {
+        return false;
+      }
+
+      const modalStyles = window.getComputedStyle(modalElement);
+      return (
+        modalStyles.visibility === 'visible' &&
+        modalStyles.opacity !== '0' &&
+        modalStyles.display !== 'none'
+      );
+    });
+  }
+
   keyPressHandler(event) {
+    if (this.isAnyPopupOpen()) {
+      return false;
+    }
+
     let data;
     switch (event.keyCode) {
       case 37:

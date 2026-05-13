@@ -62,6 +62,32 @@ export default function s3d2_navBar(i18n, { logo }) {
   const config = getConfig();
 
   document.body.addEventListener('click', e => {
+    if (window.innerWidth > 767) return;
+
+    const title = e.target.closest(
+      `[${FLYBY_DROPDOWN_ATTRIBUTES}] .s3d2-Dropdown__title`,
+    );
+    if (title) {
+      const dropdown = title.closest('.s3d2-Dropdown');
+      if (dropdown) dropdown.classList.remove('s3d2-Dropdown--force-close');
+      return;
+    }
+
+    const dropdownItem = e.target.closest(
+      `[${FLYBY_DROPDOWN_ATTRIBUTES}] .s3d2-Dropdown__item`,
+    );
+    if (!dropdownItem) return;
+
+    const dropdown = dropdownItem.closest('.s3d2-Dropdown');
+    if (!dropdown) return;
+
+    dropdown.classList.add('s3d2-Dropdown--force-close');
+    if (document.activeElement && document.activeElement.blur) {
+      document.activeElement.blur();
+    }
+  });
+
+  document.body.addEventListener('click', e => {
     const target = e.target.closest('.s3d2-header__hide-block-opener');
     if (!target) return;
     const block = document.querySelector('.s3d2-header__hide-block');

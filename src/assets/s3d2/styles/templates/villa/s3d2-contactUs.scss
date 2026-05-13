@@ -127,14 +127,15 @@
         svg {
           position: absolute;
           top: 58%;
-          left: 45%;
+          left: 50%;
           pointer-events: none;
-
+         
           &.form-progress-circle,
           &.checkmark,
           &.cross {
             transform: scale(0.8) translate(-45%, -50%);
-
+            width: 64px;
+            height: 64px;
             path {
               stroke: var(--s3d2-color-text-gray-200);
               stroke-width: 6;
@@ -405,7 +406,9 @@
   gap: var(--space-12);
   // position: relative;
   // background-color: transparent;
-
+  @media screen and (max-width: 600px) {
+    padding: var(--space-20) var(--space-5) var(--space-20) var(--space-5);
+  }
   &__content {
     display: flex;
     align-items: stretch;

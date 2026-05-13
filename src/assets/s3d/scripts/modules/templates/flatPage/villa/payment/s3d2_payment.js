@@ -2,6 +2,7 @@ import s3d2spriteIcon from '../../../../../../../s3d2/scripts/templates/spriteIc
 
 import get from 'lodash/get';
 import Swiper, { Navigation } from 'swiper';
+import { numberWithDots } from '../../../../../../../s3d2/scripts/helpers/helpers_s3d2';
 
 Swiper.use([Navigation]);
 
@@ -34,7 +35,7 @@ export default function s3d2_paymentSection({ i18n, flat, payment_list = [] }) {
 
           <div class="swiper">
             <ul class="payment__list swiper-wrapper">
-              ${getPaymentCardFromDevBase(flat)}
+              ${getPaymentCardFromDevBase(i18n,flat)}
             </ul>
           </div>
 
@@ -154,7 +155,7 @@ function updateSwiperUI(swiperInstance) {
 }
 
  
-function getPaymentCardFromDevBase(flat) {
+function getPaymentCardFromDevBase(i18n, flat) {
   const PAYMENT_FIELD_IDS = {
     DOWN_PAYMENT: '53', // Down Payment (%35)
     INTERIM_6M: '54', // Interim Payment (6th month-%10)
@@ -185,7 +186,11 @@ function getPaymentCardFromDevBase(flat) {
             </div>
               <div class="payment__list__item__description-percent-container">
                 <div class="payment__list__item__percent-container">
-                  <p class="payment__list__item__percent-container__percent">${priceValue}</p>
+                  <p class="payment__list__item__percent-container__percent">${
+                                                i18n.t('currency_label') === '$'
+                                                  ? `${i18n.t('currency_label')} ${numberWithDots(priceValue)} `
+                                                  : `${numberWithDots(priceValue)}  ${i18n.t('currency_label')}`
+                                              }</p>
                 </div>
               </div>
               <p class="payment__list__item__period">${period}</p>

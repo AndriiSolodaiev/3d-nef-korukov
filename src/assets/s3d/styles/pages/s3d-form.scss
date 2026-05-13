@@ -302,11 +302,11 @@
   text-align: center;
   // min-width: 250px;
   cursor: pointer;
-  @media screen and (max-width: 768px) {
-    transform: scale(0.75);
-    transform-origin: top left;
-    margin-bottom: -7px;
-  }
+  // @media screen and (max-width: 768px) {
+  //   transform: scale(0.75);
+  //   transform-origin: top left;
+  //   margin-bottom: -7px;
+  // }
 }
 
 /* Button style */

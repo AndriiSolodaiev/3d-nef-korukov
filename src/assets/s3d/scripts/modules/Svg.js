@@ -431,6 +431,43 @@ class Svg {
       return acc;
     }, '');
 
+    // пін на сафарі фікс
+    const isWindows = /Windows/i.test(navigator.userAgent);
+    const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    const isTouchDevice =
+      'ontouchstart' in window ||
+      navigator.maxTouchPoints > 0 ||
+      navigator.msMaxTouchPoints > 0 ||
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isSafari || isTouchDevice) {
+      const size = 35;
+      const isMobileDevice =
+        /iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+        (navigator.maxTouchPoints > 1 && window.innerWidth < 1024);
+      const scaleFactor = isMobileDevice ? 1 : 1;
+      const offsetY = 25 * scaleFactor;
+
+      const polygonSafari = `<polygon points="${x - size},${y - size - offsetY} ${x + size},${y -
+        size -
+        offsetY} ${x + size},${y + size - offsetY} ${x - size},${y +
+        size -
+        offsetY}" class="js-s3d-flat__3d-tour pin-polygon-overlay-safari safari-delayed-render" ${polygonDataset} style="fill: rgba(0, 0, 0, 0); stroke: rgba(0, 0, 0, 0); stroke-width: 2; cursor: pointer; pointer-events: all; transform: scale(1); animation: safariRender 0.1s ease 0.15s both;" />`;
+
+      return (
+        SvgPin(
+          x,
+          y,
+          iframe,
+          pinText,
+          $pin.outerHTML,
+          polygonDataset,
+           VIDEO_FORMATS_REG_EXP.test(iframe) ? 'video' : 'large',
+          `data-pin-type="${type}"`,
+          pinData,
+        ) + polygonSafari
+      );}
+
     return SvgPin(
       x,
       y,

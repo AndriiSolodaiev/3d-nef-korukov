@@ -1149,7 +1149,7 @@
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   z-index: 1001;
   background: var(--bg-overlay);
   display: flex;
@@ -1176,7 +1176,7 @@
     // gap: var(--space-20);
     padding: var(--space-12);
     max-width: 920px;
-    max-height: 90vh;
+    max-height: 90dvh;
     overflow: auto;
     overflow-x: hidden;
 

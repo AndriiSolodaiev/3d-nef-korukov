@@ -13,6 +13,7 @@ export default function s3dDashboard(
   $specifiedFlybysByGroup = '',
   showPrices = true,
   contacts,
+  isChecked = false,
 ) {
   const lang = i18n.language;
   const gallery = get(flat, 'gallery', []);
@@ -167,7 +168,7 @@ const gardenProperty = Object.values(flat.properties).find(prop =>
                         </svg>
                         <span>${i18n.t('Flat.buttons.pdf')}</span>
                     </button>
-                    <button class="s3d2-ButtonIconLeft js-s3d-add__favourite text-uppercase-important" data-id="${
+                    <button class="s3d2-ButtonIconLeft js-s3d-add__favourite text-uppercase-important${isChecked ? ' added-to-favourites' : ''}" data-id="${
                       flat.id
                     }">
                         <input type="checkbox" data-key="checked"/>

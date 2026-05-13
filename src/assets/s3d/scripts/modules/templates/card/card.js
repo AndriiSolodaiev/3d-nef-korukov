@@ -174,6 +174,7 @@ function Card(
           <div class="s3d-card__info-label">
             ${i18n.t('Flat.information.floor')}: ${floor}
           </div>
+          
           <div class="s3d-card__info-label">
            ${i18n.t('Flat.information.villa_type')}: ${rooms}+1
           </div>

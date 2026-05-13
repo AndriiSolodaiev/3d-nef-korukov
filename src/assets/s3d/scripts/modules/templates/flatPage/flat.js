@@ -151,7 +151,7 @@ function s3d2_PanoramaScreen () {
         </div>
       </div>
       <p class="payment__description">${i18n.t('Flat.panorama_description')}</p>
-      <iframe class="payment__iframe" src=${CONFIG.panorama_view[currentLang]} loading="lazy"></iframe>
+      <iframe  class="payment__iframe" src=${CONFIG.panorama_view[currentLang]} loading="lazy" allowfullscreen ></iframe>
       </section>
     `;
   };
@@ -198,7 +198,7 @@ function s3d2_PanoramaScreen () {
           : ``
       }
       <div class="s3d-villa__container-bg"></div>
-      ${s3dDashboard(i18n, flat, $specifiedFlybysByGroup, showPrices, contacts)}
+      ${s3dDashboard(i18n, flat, $specifiedFlybysByGroup, showPrices, contacts, isChecked)}
       <div class="s3d-villa__video-screen" style="padding-top: var(--space-5);     padding-left: var(--space-6);padding-right: var(--space-6);">
         <div class="s3d-villa-description-screen">
           <div class="s3d-villa-description-screen-item" ${

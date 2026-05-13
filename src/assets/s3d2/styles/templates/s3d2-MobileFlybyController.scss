@@ -1,3 +1,4 @@
+@use "../../styles/globals/s3d2_fonts.scss";
 .s3d2-mobile-flyby {
   position: fixed;
   bottom: 8px;
@@ -10,6 +11,7 @@
   display: flex;
   align-items: center;
   &__button {
+    @include s3d2_fonts.fonts-3d-small-medium;
     background: var(--s3d2-color-surface-gray-900);
     border: none;
     border-radius: var(--space-2);

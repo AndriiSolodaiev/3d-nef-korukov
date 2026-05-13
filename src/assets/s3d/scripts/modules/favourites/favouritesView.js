@@ -12,6 +12,8 @@ class FavouritesView extends EventEmitter {
     this._elements = elements;
     this.i18n = i18n;
     this.scrollableItemIndex = null;
+    this.isAnimating = false;
+    this.currentTimeline = null;
     this.syncItemsScrollHandler = this.syncItemsScrollHandler.bind(this);
 
     window.addEventListener('click', event => {
@@ -24,7 +26,7 @@ class FavouritesView extends EventEmitter {
       const favouriteAdd = delegateHandler('.js-s3d-add__favourite', event);
       if (!isObject(favouriteAdd) || !favouriteAdd || event.target.tagName === 'INPUT') return;
       event.preventDefault();
-      console.log('clickFavouriteHandler');
+
       this.emit('clickFavouriteHandler', favouriteAdd);
     });
 
@@ -65,20 +67,29 @@ class FavouritesView extends EventEmitter {
   }
 
   addElementInPage(favourites) {
-    gsap.timeline()
+    // Скасуємо попередню анімацію, якщо вона ще в процесі
+    if (this.currentTimeline) {
+      this.currentTimeline.kill();
+    }
+
+    this.isAnimating = true;
+    this.currentTimeline = gsap.timeline()
       .to('.js-s3d-fv__list', {
         opacity: 0,
-        duration: 0.25,
+        duration: 0.08,
       })
       .add(() => {
         this.clearListAndAddItems(favourites);
       })
       .to('.js-s3d-fv__list', {
         opacity: 1,
-        duration: 0.25,
+        duration: 0.08,
       })
-      .add(this.syncItemsScrollHandler);
-
+      .add(this.syncItemsScrollHandler)
+      .then(() => {
+        this.isAnimating = false;
+        this.currentTimeline = null;
+      });
   }
 
   clearListAndAddItems(favourites) {
