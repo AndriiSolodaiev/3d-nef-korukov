@@ -175,13 +175,13 @@ const createHtml = (i18n, config) => {
   console.log(config);
   switchCreationFunction(config);
 };
-// document.addEventListener('DOMContentLoaded', e => {
-//   setTimeout(() => {
-//     DevelopmentNotificationFactory.showNotification();
-//     DevelopmentNotificationFactory.addNotificationClass();
-//     DevelopmentNotificationFactory.removeNotificationClass();
-//   }, 7500);
-// });
+document.addEventListener('DOMContentLoaded', e => {
+  setTimeout(() => {
+    DevelopmentNotificationFactory.showNotification();
+    DevelopmentNotificationFactory.addNotificationClass();
+    DevelopmentNotificationFactory.removeNotificationClass();
+  }, 7500);
+});
 async function init() {
   let Config = defaultConfig;
   try {
